@@ -317,7 +317,7 @@ void handleMovement()
       acceleratedMouseMove(0.01);
       break;
 
-    case PADMODE_ALTERNATIVE:  // handle alternative actions stick mode
+    case PADMODE_ALTERNATIVE:  // handle alternative actions (non-sticky)
       if (sensorData.forceRaw>sensorData.deadZone) {
        switch (sensorData.dir) {   // non-sticky direction keys
           case DIR_E: leftState=1; rightState=upState=downState=0;break;
@@ -340,7 +340,7 @@ void handleMovement()
       handleButton(RIGHT_BUTTON,  rightState); 
     break;
       
-    case PADMODE_ALTERNATIVE_STICKY:    // handle alternative actions pad mode  
+    case PADMODE_ALTERNATIVE_STICKY:    // handle alternative actions (sticky mode)
       if (sensorData.forceRaw>sensorData.deadZone) {
         switch (sensorData.dir) {   // sticky direction keys
           case DIR_E: leftState=1; rightState=0; break;

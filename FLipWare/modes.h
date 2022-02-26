@@ -48,13 +48,13 @@
 #define HOLD_Y        2
 #define HOLD_PRESSURE 3
 
-#define PADMODE_ALTERNATIVE      0
-#define PADMODE_MOUSE            1
-#define PADMODE_JOYSTICK_XY      2
-#define PADMODE_JOYSTICK_ZR      3
-#define PADMODE_JOYSTICK_SLIDERS 4
-#define PADMODE_PAD              5
-#define PADMODE_ALTERNATIVE_STICKY  6     
+#define PADMODE_ALTERNATIVE_STICKY  0
+#define PADMODE_MOUSE               1
+#define PADMODE_JOYSTICK_XY         2
+#define PADMODE_JOYSTICK_ZR         3
+#define PADMODE_JOYSTICK_SLIDERS    4
+#define PADMODE_PAD                 5
+#define PADMODE_ALTERNATIVE         6     
 
 /**
    @name handleUserInteraction
