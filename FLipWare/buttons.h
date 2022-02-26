@@ -30,32 +30,25 @@
    definition of Button numbers/indices of the "virtual buttons"
    (these are not pin numbers but button function identifiers!)
 */
-#define UP_BUTTON                3
-#define DOWN_BUTTON              4
-#define LEFT_BUTTON              5
-#define RIGHT_BUTTON             6
+#define UP_BUTTON            3
+#define DOWN_BUTTON          4
+#define LEFT_BUTTON          5
+#define RIGHT_BUTTON         6
 
-#define SIP_BUTTON               7
-#define STRONGSIP_BUTTON         8
-#define PUFF_BUTTON              9
-#define STRONGPUFF_BUTTON       10
+#define SIP_BUTTON           7
+#define STRONGSIP_BUTTON     8
+#define PUFF_BUTTON          9
+#define STRONGPUFF_BUTTON   10
 
-#define STRONGSIP_UP_BUTTON     11
-#define STRONGSIP_DOWN_BUTTON   12
-#define STRONGSIP_LEFT_BUTTON   13
-#define STRONGSIP_RIGHT_BUTTON  14
+#define TAP_BUTTON          11
+#define DOUBLE_TAP_BUTTON   12
+#define TRIPLE_TAP_BUTTON   13
+#define QUAD_TAP_BUTTON     14
 
-#define STRONGPUFF_UP_BUTTON    15
-#define STRONGPUFF_DOWN_BUTTON  16
-#define STRONGPUFF_LEFT_BUTTON  17
-#define STRONGPUFF_RIGHT_BUTTON 18
-
-// define equivalent button functions for Trackpad action (Note: strongpuff actions not available for trackpad!)
-#define TAP_BUTTON        STRONGPUFF_BUTTON
-#define DRAG_UP_BUTTON    STRONGPUFF_UP_BUTTON
-#define DRAG_DOWN_BUTTON  STRONGPUFF_DOWN_BUTTON
-#define DRAG_LEFT_BUTTON  STRONGPUFF_LEFT_BUTTON
-#define DRAG_RIGHT_BUTTON STRONGPUFF_RIGHT_BUTTON
+#define DRAG_UP_BUTTON      15
+#define DRAG_DOWN_BUTTON    16
+#define DRAG_LEFT_BUTTON    17
+#define DRAG_RIGHT_BUTTON   18
 
 
 /**
