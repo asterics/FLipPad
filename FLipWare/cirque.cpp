@@ -482,7 +482,7 @@ int updateCirquePad(int *x, int * y) {
           if (dragging) {
             dragDistanceX+=*x;
             dragDistanceY+=*y;
-            if ((dragMode==DRAG_NORMAL) && (millis()-dragBeginTimestamp>DRAG_ACTION_TIMELIMIT)) {
+            if ((dragMode==DRAG_NORMAL) && (millis()-dragBeginTimestamp>slotSettings.gh*10)) {
               if ((dragDistanceX > DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=DRAG_AUTOMOVE_SPEED;
               else if ((dragDistanceX < -DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=-DRAG_AUTOMOVE_SPEED;
               if ((dragDistanceY > DRAG_AUTOMOVE_DISTANCE) && (*y==0)) *y=DRAG_AUTOMOVE_SPEED;
@@ -565,7 +565,7 @@ void handleTapClicks(int state, int tapTime) {
         liftTimeStamp = millis();
 
         if (dragging) {
-          if (liftTimeStamp-dragBeginTimestamp < DRAG_ACTION_TIMELIMIT) {  // check drag actions 
+          if (liftTimeStamp-dragBeginTimestamp < slotSettings.gh*10) {  // check drag actions 
              uint8_t d = findDragAction();
              
              if (d) { 
