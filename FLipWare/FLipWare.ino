@@ -190,8 +190,7 @@ void loop() {
     }
 
     // calculate updated x/y/force values according to deadzone
-    if (!useAbsolutePadValues())
-      applyDeadzone();
+    applyDeadzone();
 
     handleUserInteraction();  // handle all mouse / joystick / button activities
 
@@ -224,6 +223,9 @@ void applyDeadzone()
     else sensorData.deadZone = slotSettings.dx;
 
     sensorData.force = (sensorData.forceRaw < sensorData.deadZone) ? 0 : sensorData.forceRaw - sensorData.deadZone;
-    sensorData.x = (int) (sensorData.force * cosf(sensorData.angle));
-    sensorData.y = (int) (sensorData.force * sinf(sensorData.angle));
+
+    if (slotSettings.padMode!=PADMODE_PAD) {   // TBD: re-enable deazone settings in GUI, then remove !
+      sensorData.x = (int) (sensorData.force * cosf(sensorData.angle));
+      sensorData.y = (int) (sensorData.force * sinf(sensorData.angle));
+    }
 }
