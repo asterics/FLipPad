@@ -10,6 +10,8 @@ All settings and functions of the FLipPad can be tailored to specific capabiliti
 Multiple settings can be stored into the device and changed via finger gestures or other user interactions.
 Additional features like built-in environmental control via infrared, optional bluetooth-add-on module for controlling smartphones/tablets or complete software-based control of all functions via serial command interface make the FlipPad one of the most flexible alternative input devices available today.
 
+![FLipPad with 3d-printed enclosure - rendered image](/img/renderings/fp1.png)
+
 The FLipPad was created in course of the [TOM Abraham Accords challenge 2022](https://www.tomchallenge.org/), together with a need-knower who requested and tested this design.
 It is based upon the [FlipMouse](https://github.com/asterics/FLipMouse) - a mouth-controller which is also available as Open Source project / DIY-construction kit!
 
@@ -42,6 +44,8 @@ In order to build the firmware following prerequisites and dependencies must be 
 * select the *board* 'Teensy LC' in the Arduino IDE tools menu, and the *USB-type* "Serial+Keyboard+Mouse+Joystick"
 * select the correct *Port* after connecting the TeensyLC to your system
 * compile and upload the firmware 
+
+![FLipPad opened - rendered image](/img/renderings/sc2.png)
 
 
 # Links to related projects
