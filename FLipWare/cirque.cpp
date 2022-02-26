@@ -72,7 +72,6 @@ typedef struct _absData
   bool hovering;
 } absData_t;
 
-uint8_t dragMode = DRAG_NORMAL;
 uint8_t dragging = 0;
 int dragDistanceX=0,dragDistanceY=0;
 uint32_t dragBeginTimestamp = 0;
@@ -482,7 +481,7 @@ int updateCirquePad(int *x, int * y) {
           if (dragging) {
             dragDistanceX+=*x;
             dragDistanceY+=*y;
-            if ((dragMode==DRAG_NORMAL) && (millis()-dragBeginTimestamp>slotSettings.gh*10)) {
+            if ( (!slotSettings.gh) || (millis()-dragBeginTimestamp>(int)slotSettings.gh*10)) {
               if ((dragDistanceX > DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=DRAG_AUTOMOVE_SPEED;
               else if ((dragDistanceX < -DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=-DRAG_AUTOMOVE_SPEED;
               if ((dragDistanceY > DRAG_AUTOMOVE_DISTANCE) && (*y==0)) *y=DRAG_AUTOMOVE_SPEED;
@@ -520,14 +519,6 @@ uint8_t findDragAction() {
     case DIR_S: return(DRAG_ACTION_DOWN); break;
   } 
   return(0);
-
-  /*
-     int mx=abs(dragDistanceX), my=abs(dragDistanceY);
-     if ( (mx > my) && (mx > DRAG_ACTION_DISTANCE))
-       return((dragDistanceX>0) ? DRAG_ACTION_RIGHT : DRAG_ACTION_LEFT);
-     if ( my > DRAG_ACTION_DISTANCE)
-       return((dragDistanceY>0) ? DRAG_ACTION_DOWN : DRAG_ACTION_UP);
-  */
 }
 
 void resetDrag() {
@@ -561,21 +552,21 @@ void handleTapClicks(int state, int tapTime) {
     //  Serial.print("-");
     case   CIRQUE_STATE_LIFTOFF:   
       if (lastState == CIRQUE_STATE_VALID) {
-        //   Serial.println("liftoff");
+       //   Serial.println("liftoff");
         liftTimeStamp = millis();
 
         if (dragging) {
-          if (liftTimeStamp-dragBeginTimestamp < slotSettings.gh*10) {  // check drag actions 
+          if (slotSettings.gh && (liftTimeStamp-dragBeginTimestamp < (int)slotSettings.gh*10)) {  // check drag actions 
              uint8_t d = findDragAction();
              
              if (d) { 
-               //Serial.print ("perform drag action:"); Serial.println(d); 
+               // Serial.print ("perform drag action:"); Serial.println(d); 
                resetDrag();
                endDrag(); 
                performDragAction(d); 
              }             
           }
-          //else  Serial.println ("drag too slow for action");
+          // else  Serial.println ("drag too slow for action");
         }
         
         if (liftTimeStamp - setTimeStamp < tapTime)  {
@@ -584,7 +575,7 @@ void handleTapClicks(int state, int tapTime) {
             // Serial.println("double tap");
           }
           
-          // Serial.println("perform tap!");
+          //Serial.println("perform tap!");
           resetDrag();
           handlePress(TAP_BUTTON);   // create tap action!
           tapReleaseTimestamp = millis();
@@ -609,8 +600,7 @@ void handleTapClicks(int state, int tapTime) {
           //Serial.println("start drag");
           tapReleaseTimestamp = 0;
           dragging = 1;
-          dragBeginTimestamp = millis();
-          if (dragMode!=DRAG_NORMAL) handleRelease(TAP_BUTTON);
+          dragBeginTimestamp = millis();          
         }
       }
       break;

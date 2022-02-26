@@ -29,8 +29,6 @@
 /**
    constant definitions for drag mode / drag parameters
 */
-#define DRAG_DISABLED    0
-#define DRAG_NORMAL      1
 //#define DRAG_ACTION_TIMELIMIT 500
 #define DRAG_ACTION_FORCE 20
 
