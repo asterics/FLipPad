@@ -256,13 +256,13 @@ void acceleratedMouseMove(float accelFactor) {
 
   float moveValX = sensorData.x * (float)slotSettings.ax * accelFactor;
   float moveValY = sensorData.y * (float)slotSettings.ay * accelFactor;
+  
   float actSpeed =  __ieee754_sqrtf (moveValX * moveValX + moveValY * moveValY);
-  float max_speed = (float)slotSettings.ms / 10.0f;
+  float max_speed = (float)slotSettings.ms;
 
   if (actSpeed > max_speed) {
     moveValX *= (max_speed / actSpeed);
     moveValY *= (max_speed / actSpeed);
-    accelFactor *= 0.98f;
   }
 
   accumXpos += moveValX;
@@ -318,7 +318,7 @@ void handleMovement()
       break;
 
     case PADMODE_ALTERNATIVE:  // handle alternative actions stick mode
-      if (sensorData.forceRaw>slotSettings.dx) {
+      if (sensorData.forceRaw>sensorData.deadZone) {
        switch (sensorData.dir) {   // non-sticky direction keys
           case DIR_E: leftState=1; rightState=upState=downState=0;break;
           case DIR_NE: upState=leftState=1; rightState=downState=0; break;
@@ -341,7 +341,7 @@ void handleMovement()
     break;
       
     case PADMODE_ALTERNATIVE_STICKY:    // handle alternative actions pad mode  
-      if (sensorData.forceRaw>slotSettings.dx) {
+      if (sensorData.forceRaw>sensorData.deadZone) {
         switch (sensorData.dir) {   // sticky direction keys
           case DIR_E: leftState=1; rightState=0; break;
           case DIR_NE: upState=leftState=1; rightState=downState=0; break;
