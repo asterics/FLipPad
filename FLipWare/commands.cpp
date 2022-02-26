@@ -375,6 +375,7 @@ void performCommand (uint8_t cmd, int16_t par1, char * keystring, int8_t periodi
       break;
     case CMD_GV:
       slotSettings.gv = par1;
+      // char msg[10];  sprintf(msg,"gv:%d",par1); displayMessage(msg);
       break;
     case CMD_RV:
       slotSettings.rv = par1;
