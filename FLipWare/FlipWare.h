@@ -91,10 +91,10 @@ struct SlotSettings {
   uint8_t  ws;     // wheel stepsize
   uint16_t sp;     // threshold strong puff
   uint16_t ss;     // threshold strong sip
-  uint8_t  gv;     // gain vertical drift compensation
-  uint8_t  rv;     // range vertical drift compensation
-  uint8_t  gh;     // gain horizontal drift compensation
-  uint8_t  rh;     // range horizontal drift compensation
+  uint8_t  gv;     // tap threshold time (0-100, 0=disable)
+  uint8_t  rv;     // trackpad sensitivity 
+  uint8_t  gh;     // tap-gesture threshold time (0-100, 0=disable)
+  uint8_t  rh;     // TBD
   int16_t  cx;     // calib x
   int16_t  cy;     // calib y
   uint16_t ro;     // orientation (0,90,180,270)
