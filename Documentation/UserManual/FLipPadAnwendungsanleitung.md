@@ -75,7 +75,7 @@ o Falls gewünscht, können Schluck-/Puste-Aktivitäten in das Mundstück zusät
 
 *Abbildung 2*: FlipPad rechte Seite
 
-<p align="left" width="100%"> <img width="55%" src="./Bilder/fp4-de.neu.png"> </p>
+<p align="left" width="100%"> <img width="55%" src="./Bilder/fp4-l-de.png"> </p>
 
 *Abbildung 3*: FlipPad linke Seite
 
@@ -85,7 +85,7 @@ Auf der linken Seite des FlipPad befindet sich eine Taste (B1), die eine konfigu
 
 ## 3D-gedrucktes Gehäuse
 
-<p align="left" width="100%" src=".Bilder/fp5-neu.jpg"></p>
+<p align="left" width="100%" > <img width="55%" src=".Bilder/fp5-neu.jpg"> </p>
 *Abbildung 4*: FlipPad 3D-gedrucktes Gehäuse 
 
 Es sind verschiedene Alternativen für das FlipPad-Gehäuse verfügbar, z.B. eine Acrylversion. Die empfohlene Version ist das 3D-gedruckte Gehäuse, das auch in der Bauanleitung dokumentiert ist. Die 3D-Designdateien können vom [Github Repository](https://github.com/asterics/FLipPad/tree/main/Hardware) heruntergeladen werden. 
@@ -237,7 +237,7 @@ Die besten Werte für eine bestimmte FlipPad können durch Experimentieren ermit
 
 Wenn Sie im Tab PAD-CONFIG einen der Joystick-Modi auswählen, führt das Bewegen des FlipPads nach oben/unten/links/rechts zu Joystick-Aktivitäten. Das FlipPad verhält sich dann wie ein Gamepad mit 6 Achsen (*X/Y*, *Z/Z-Turn* und *Slider1/Slider2*). Da das FlipPad jeweils nur 2 Achsen Informationen liefern kann, muss die gewünschte Joystick-Achse ausgewählt werden.
 
-<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk5-de"> </p>
+<p align="left" width="80%"> <img width="80%" src="./Bilder/fpk5-de.png"> </p>
 
 *Abbildung 18: Padkonfiguration für die Joystick-Bewegung einstellen*
 

@@ -77,7 +77,7 @@ Additionally, two external momentary switches can be attached to the jack plug c
 
 
 <p align="left" width="100%">
-    <img width="55%" src="./Bilder/fp3-l-en.png">
+    <img width="55%" src="./Bilder/fp-l3-en.png">
 </p>
 
 *Figure 2*: FlipPad right side
