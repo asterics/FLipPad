@@ -477,16 +477,16 @@ int updateCirquePad(int *x, int * y) {
             case 270: *x = padYraw - y0;  *y = x0 - padXraw; break;
             case 180: *x = x0 - padXraw;  *y = y0 - padYraw; break;
           }
-          // Serial.print(*x);Serial.print(",");Serial.println(*y);
-          if (dragging) {
-            dragDistanceX+=*x;
-            dragDistanceY+=*y;
-            if ( (!slotSettings.gh) || (millis()-dragBeginTimestamp>(int)slotSettings.gh*10)) {
-              if ((dragDistanceX > DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=DRAG_AUTOMOVE_SPEED;
-              else if ((dragDistanceX < -DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=-DRAG_AUTOMOVE_SPEED;
-              if ((dragDistanceY > DRAG_AUTOMOVE_DISTANCE) && (*y==0)) *y=DRAG_AUTOMOVE_SPEED;
-              else if ((dragDistanceY < -DRAG_AUTOMOVE_DISTANCE) && (*y==0)) *y=-DRAG_AUTOMOVE_SPEED;
-            }
+          if (dragging && slotSettings.padMode==PADMODE_PAD) {
+            if (((*x>0) && (dragDistanceX < DRAG_AUTOMOVE_DISTANCE)) || 
+                ((*x<0) && (dragDistanceX > -DRAG_AUTOMOVE_DISTANCE))) dragDistanceX+=*x;
+            if (((*y>0) && (dragDistanceY < DRAG_AUTOMOVE_DISTANCE)) ||
+                ((*y<0) && (dragDistanceY > -DRAG_AUTOMOVE_DISTANCE))) dragDistanceY+=*y;
+                
+            if ((dragDistanceX > DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=DRAG_AUTOMOVE_SPEED;
+            else if ((dragDistanceX < -DRAG_AUTOMOVE_DISTANCE) && (*x==0)) *x=-DRAG_AUTOMOVE_SPEED;
+            if ((dragDistanceY > DRAG_AUTOMOVE_DISTANCE) && (*y==0)) *y=DRAG_AUTOMOVE_SPEED;
+            else if ((dragDistanceY < -DRAG_AUTOMOVE_DISTANCE) && (*y==0)) *y=-DRAG_AUTOMOVE_SPEED;
           }
         }
         if (useAbsolutePadValues()) {
@@ -641,6 +641,7 @@ void handleTapClicks(int state, int tapTime) {
       handleRelease(TAP_BUTTON);
     }
   }
+  
   uint8_t taps=checkMultiTapActions(tapTime,0);
   if (taps>1) {
 //     Serial.print ("numTaps="); Serial.println (taps);
