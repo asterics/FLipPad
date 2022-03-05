@@ -91,8 +91,8 @@ const uint8_t ZVALUE_MAP[ROWS_Y][COLS_X] =
 {
   {1, 1,  1,  1,  1,  1, 1, 1},
   {1, 1,  2,  3,  3,  2, 1, 1},
-  {1, 2,  3,  5,  5,  3, 2, 1},
-  {1, 2,  3,  5,  5,  3, 2, 1},
+  {1, 2,  3,  4,  4,  3, 2, 1},
+  {1, 2,  3,  4,  4,  3, 2, 1},
   {1, 1,  2,  3,  3,  2, 1, 1},
   {1, 1,  1,  1,  1,  1, 1, 1},
 };
@@ -317,7 +317,7 @@ void Pinnacle_CheckValidTouch(absData_t * touchData)
   // touchData->hovering = !(touchData->zValue > ZVALUE_MAP[zone_y][zone_x]);
   // touchData->hovering = !(touchData->zValue > 10);
 
-  if (  touchData->zValue <=  ZVALUE_MAP[zone_y][zone_x] * 500 / (50 + slotSettings.rv) ) // apply trackpad sensitivity setting
+  if (  touchData->zValue <=  ((uint32_t)ZVALUE_MAP[zone_y][zone_x] * 500) / (25 + slotSettings.rv) ) // apply trackpad sensitivity setting
     touchData->hovering = true;
   else  touchData->hovering = false;
 
@@ -541,6 +541,32 @@ void performDragAction(uint8_t d)
   }
 }
 
+uint8_t checkMultiTapActions(int tapTime, uint8_t tappedNow) {
+  static uint32_t lastTapTimestamp=0;
+  static uint8_t numTaps=0;
+  uint32_t actTime=millis();
+
+  if (lastTapTimestamp==0) {
+    if (tappedNow) {
+      lastTapTimestamp=actTime;
+      numTaps=1;
+    }
+    return(0);
+  }
+
+  if (actTime-lastTapTimestamp > tapTime) { 
+    uint8_t temp=numTaps; 
+    numTaps=0; lastTapTimestamp=0;
+    return (temp);
+  }
+  
+  if (tappedNow) {
+    numTaps++;
+    lastTapTimestamp=actTime;
+  }
+  return(0);
+}
+
 void handleTapClicks(int state, int tapTime) {
   static uint32_t liftTimeStamp = 0;
   static uint32_t setTimeStamp = 0;
@@ -579,6 +605,7 @@ void handleTapClicks(int state, int tapTime) {
           resetDrag();
           handlePress(TAP_BUTTON);   // create tap action!
           tapReleaseTimestamp = millis();
+          checkMultiTapActions(tapTime,1);
         }
       }
       if (dragging) {
@@ -613,6 +640,15 @@ void handleTapClicks(int state, int tapTime) {
       // Serial.println("release tap");
       handleRelease(TAP_BUTTON);
     }
+  }
+  uint8_t taps=checkMultiTapActions(tapTime,0);
+  if (taps>1) {
+//     Serial.print ("numTaps="); Serial.println (taps);
+     switch (taps) {
+       case 2:  handlePress(DOUBLE_TAP_BUTTON); handleRelease(DOUBLE_TAP_BUTTON);  break; // create double-tap action!
+       case 3:  handlePress(TRIPLE_TAP_BUTTON); handleRelease(TRIPLE_TAP_BUTTON);  break; // create double-tap action!
+       case 4:  handlePress(QUAD_TAP_BUTTON); handleRelease(QUAD_TAP_BUTTON);  break; // create double-tap action!
+     }
   }
 }
 
