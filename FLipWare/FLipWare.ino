@@ -224,7 +224,7 @@ void applyDeadzone()
 
     sensorData.force = (sensorData.forceRaw < sensorData.deadZone) ? 0 : sensorData.forceRaw - sensorData.deadZone;
 
-    if (slotSettings.padMode!=PADMODE_PAD) {   // TBD: re-enable deazone settings in GUI, then remove !
+    if (slotSettings.padMode!=PADMODE_PAD) { 
       sensorData.x = (int) (sensorData.force * cosf(sensorData.angle));
       sensorData.y = (int) (sensorData.force * sinf(sensorData.angle));
     }
