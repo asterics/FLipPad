@@ -1,6 +1,6 @@
 ## Basic information
 This configuration offers 4 modes (slots) for different mouse-pointer or keyboard actions.
-The modes can be changed by finger gestures (tap + movement) or by pressing Button1/Button3.
+The modes can be changed by finger gestures (tap + movement), by triple taps or by pressing Button1.
 
 ## Slot1 - "StickMode" (double tap + up)
 - controls mouse cursor via USB interface
@@ -13,7 +13,7 @@ The modes can be changed by finger gestures (tap + movement) or by pressing Butt
 ## Slot3 - "Phone" (double tap + down)
 - controls mouse cursor via BT interface 
 - uses pad mode (finger movement = cursor movement)
-- a tap + down gesture creates the keyboard shortcut KEY_GUI + KEY_BACKSPACE which acctivates the Home/Back button in many Android phones
+- another tap+down gesture or pressing external button3 creates the keyboard shortcut KEY_GUI + KEY_BACKSPACE which acctivates the Home/Back button in many Android phones
 - note that the BT-module must be installed and paired with a BT-capable device
 
 ## Slot4 - "GameKey" (double tap + left)
@@ -23,7 +23,7 @@ The modes can be changed by finger gestures (tap + movement) or by pressing Butt
 
 
 ## for all slots:
-- Button 1 (internal button), Button3 = load next slot
+- Button 1 (internal button) or tripe tap = load next slot
 - Button 2, Sip = hold left mouse button (in Slot4: Space Key)
 - Puff = click right mouse button (in Slot4: Enter Key)
 
