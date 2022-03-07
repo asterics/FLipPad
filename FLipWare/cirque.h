@@ -33,7 +33,7 @@
 #define DRAG_ACTION_FORCE 20
 
 #define DRAG_AUTOMOVE_DISTANCE 20
-#define DRAG_AUTOMOVE_SPEED 1
+#define DRAG_AUTOMOVE_SPEED 2
 
 /**
    constant definitions for drag gesture directions
