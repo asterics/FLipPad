@@ -52,27 +52,19 @@ Additionally, two external momentary switches can be attached to the jack plug c
 
 **The hardware features of the FlipPad:** (see pictures at the bottom of this list)
 
-(a)    “Zero-way”-joystick / mouthpiece: very low forces are sufficient to create up/down/left/right movement
+(a)    One built-in switch (“Button 1 / B1”) on the device, e.g. to change the active configuration (functions)
 
-        o  The zero-way-joystick can be used with fingers or toes etc. 
+(b)    Two 3.5 mm jack plug sockets for attaching external switches to trigger additional functions (“Button 2 / B2” and “Button 3 / B3”)
 
-        o  It can also be used as a mouthpiece (actuated by lips / mouth movements) 
+(c)    3 Indicator Light Emitting Diodes (LEDs) for showing the active configuration, calibration procedure etc.
 
-        o  If desired, sip / puff activities into the mouthpiece can trigger additional functions
+(d)    Universal infrared remote control receiver and transmitter
 
-(b)    One built-in switch (“Button 1 / B1”) on the device, e.g. to change the active configuration (functions)
+(e)    “Hot Shoe” Adapter for mounting to a Manfrotto Magic Arm or similar mounting system
 
-(c)    Two 3.5 mm jack plug sockets for attaching external switches to trigger additional functions (“Button 2 / B2” and “Button 3 / B3”)
+(f)    Firmware upgrade via FlipPad web application on [FlipPad.asterics.eu](FlipPad.asterics.eu)
 
-(d)    3 Indicator Light Emitting Diodes (LEDs) for showing the active configuration, calibration procedure etc.
-
-(e)    Universal infrared remote control receiver and transmitter
-
-(f)    “Hot Shoe” Adapter for mounting to a Manfrotto Magic Arm or similar mounting system
-
-(g)    Firmware upgrade via FlipPad web application on [FlipPad.asterics.eu](FlipPad.asterics.eu)
-
-(h)    Optional add-on board for Bluetooth (e.g. to control smartphones or iOS devices)
+(g)    Optional add-on board for Bluetooth (e.g. to control smartphones or iOS devices)
 
 
 
@@ -117,19 +109,12 @@ The optional Bluetooth Add-On module allows connection of the FlipPad as a Bluet
 
 
 
-!!! Neue Fotos mit Saugstick
+
 
 # Instructions for proper mounting and use
 
-**1. Attach the "hygienic stick**
 
-![hygienic stick](./Bilder/f7.png)
-
-*Figure 6*: Attaching the hygienic stick
-
-Use a clean “hygienic stick” and attach it to the front connector, turn clockwise (not too hard):
-
-**2. Mount the FlipPad device appropriately for the user**
+**1. Mount the FlipPad device appropriately for the user**
 ![hygienic stick](./Bilder/f8.png)
 
 *Figure 7*: Mounting the FlipPad
@@ -148,13 +133,7 @@ Ensure that the head of the user rests comfortably. The mouthpiece should gently
 
 If the user desires to actuate the FlipPad with a finger or the thumb the system appropriately so that the hand is in a resting position and the finger can touch the joystick without stress. Attach one or two additional external switches if desired, and mount the switches at suitable locations.
 
-![ball-switch](./Bilder/f11.png)
-
-*Figure 10*: Using the FlipPad as a ball-switch interface
-
-If a soft ball interaction method is desired, a plastic tube can be attached to the front connector of the FlipPad using a *Luer Lock* adapter. This plastic tube can be connected to a soft ball (the picture above shows a cheap “dog toy” from a pet store). This solution could be used as a soft head-switch / pillow-switch or shoulder-switch and can be combined with other external switches. 
-
-**3. Attaching the FlipPad to a Computer, Tablet or Smart Phone**
+**2. Attaching the FlipPad to a Computer, Tablet or Smart Phone**
 
 When connecting the FlipPad via the provided USB-micro cable, do not touch the mouthpiece as long as the LEDs are blinking (the initial blinking indicates the zero point calibration phase). Wait until the device is recognized by the computer, then move the joystick / mouthpiece to check correct operation.
 
