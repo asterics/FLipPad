@@ -100,16 +100,8 @@ Das optionale Bluetooth-Zusatzmodul ermöglicht den Anschluss des FlipPad als Bl
 
 # Anweisungen für die ordnungsgemäße Montage und Verwendung
 
-**1. Befestigen Sie den "Hygienic Stick**
 
-![hygienic stick](./Bilder/f7.png)
-
-*Abbildung 6*: Befestigen des Hygienic Stick
-
-Verwenden Sie einen sauberen "Hygienic Stick", stecken Sie ihn auf den vorderen Anschluss und drehen Sie ihn im Uhrzeigersinn (nicht zu fest).
-
-//Fotos am Dienstag machen!!
-**2. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** ![hygienic stick](./Bilder/f8.png)
+**1. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** ![hygienic stick](./Bilder/f8.png)
 
 *Abbildung 7*: Montieren des FlipPad
 
@@ -129,7 +121,7 @@ Wenn der Benutzer / die Benutzerin die FlipPad mit einem Finger oder dem Daumen 
 
 Wenn eine Interaktionsmethode mit einem weichen Ball gewünscht wird, kann ein Kunststoffrohr mit einem *Luer-Lock*-Adapter am vorderen Anschluss der FlipPad befestigt werden. Dieser Kunststoffschlauch kann mit einem weichen Ball verbunden werden (das Bild oben zeigt ein billiges "Hundespielzeug" aus einer Tierhandlung). Diese Lösung kann als weicher Kopfschalter / Kissenschalter oder Schulterschalter verwendet werden und kann mit anderen externen Schaltern kombiniert werden.
 
-**3. Anschließen der FlipPad an einen Computer, ein Tablet oder ein Smart Phone**
+**2. Anschließen der FlipPad an einen Computer, ein Tablet oder ein Smart Phone**
 
 Wenn Sie das FlipPad über das mitgelieferte USB-Mikrokabel anschließen, berühren Sie das Touchpad nicht, solange die LEDs blinken (das anfängliche Blinken zeigt die Phase der Nullpunktkalibrierung an). Warten Sie, bis das Gerät vom Computer erkannt wird, und bewegen Sie dann den Joystick/das Touchpad, um den korrekten Betrieb zu überprüfen.
 
