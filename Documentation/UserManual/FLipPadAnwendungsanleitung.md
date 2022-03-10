@@ -46,28 +46,20 @@ Zusätzlich können zwei externe Taster an die Klinkenbuchsen auf der linken Sei
 
 
 **Die Hardware-Eigenschaften des FlipPad:** (siehe Bilder am Ende dieser Liste)
-(bei (a)bin ich mir nicht sicher ob das bei dem FlipPad auch geht)
-(a)    "Zero-way"-Joystick/Mundstück: sehr geringe Kräfte reichen aus, um eine Auf-/Ab-/Links-/Rechts-Bewegung zu erzeugen
 
-o  Der Zero-Way-Joystick kann mit Fingern oder Zehen etc. bedient werden
+(a)    Ein eingebauter Schalter ("Taste 1 / B1") am Gerät, z.B. zum Ändern der aktiven Konfiguration (Funktionen)
 
-o Er kann auch als Mundstück verwendet werden (Betätigung durch Lippen/Mundbewegungen)
+(b)    Zwei 3,5-mm-Klinkenbuchsen zum Anschluss von externen Schaltern / Tastern zur Auslösung von Zusatzfunktionen ("Taster 2 / B2" und "Taster 3 / B3")
 
-o Falls gewünscht, können Schluck-/Puste-Aktivitäten in das Mundstück zusätzliche Funktionen auslösen
+(c)    3 Leuchtdioden (LED) zur Anzeige der aktiven Konfiguration, des Kalibrierungsvorgangs usw.
 
-(b)    Ein eingebauter Schalter ("Taste 1 / B1") am Gerät, z.B. zum Ändern der aktiven Konfiguration (Funktionen)
+(d)    Universal-Infrarot-Fernbedienungsempfänger und -sender
 
-(c)    Zwei 3,5-mm-Klinkenbuchsen zum Anschluss von externen Schaltern / Tastern zur Auslösung von Zusatzfunktionen ("Taster 2 / B2" und "Taster 3 / B3")
+(e)    "Hot Shoe"-Adapter zur Montage an einem Manfrotto Magic Arm oder einem ähnlichen Montagesystem
 
-(d)    3 Leuchtdioden (LED) zur Anzeige der aktiven Konfiguration, des Kalibrierungsvorgangs usw.
+(f)    Firmware-Aktualisierung über die FlipPad-Webanwendung auf [FlipPad.asterics.eu](https://flippad.asterics.eu/index_pad.htm)
 
-(e)    Universal-Infrarot-Fernbedienungsempfänger und -sender
-
-(f)    "Hot Shoe"-Adapter zur Montage an einem Manfrotto Magic Arm oder einem ähnlichen Montagesystem
-
-(g)    Firmware-Aktualisierung über die FlipPad-Webanwendung auf [FlipPad.asterics.eu](https://flippad.asterics.eu/index_pad.htm)
-
-(h)    Optionale Zusatzplatine für Bluetooth (z. B. zur Steuerung von Smartphones oder iOS-Geräten)
+(g)    Optionale Zusatzplatine für Bluetooth (z. B. zur Steuerung von Smartphones oder iOS-Geräten)
 
 
 
@@ -115,11 +107,6 @@ Das Bild zeigt eine Kombination aus "[Manfrotto Gelenkarm](https://www.manfrotto
 
 Wenn der Benutzer / die Benutzerin die FlipPad mit einem Finger oder dem Daumen betätigen möchte, montieren Sie das System so, dass sich die Hand in einer Ruheposition befindet und der Finger den Joystick ohne Belastung berühren kann. Bringen Sie einen oder zwei zusätzliche externe Schalter an, falls gewünscht, und montieren Sie die Schalter an geeigneten Stellen (z. B. an den Beinen/Zehen/Schultern usw.).
 
-![ball-switch](./Bilder/f11.png)
-
-*Abbildung 10*: Verwendung der FlipPad als Ball-Switch-Schnittstelle
-
-Wenn eine Interaktionsmethode mit einem weichen Ball gewünscht wird, kann ein Kunststoffrohr mit einem *Luer-Lock*-Adapter am vorderen Anschluss der FlipPad befestigt werden. Dieser Kunststoffschlauch kann mit einem weichen Ball verbunden werden (das Bild oben zeigt ein billiges "Hundespielzeug" aus einer Tierhandlung). Diese Lösung kann als weicher Kopfschalter / Kissenschalter oder Schulterschalter verwendet werden und kann mit anderen externen Schaltern kombiniert werden.
 
 **2. Anschließen der FlipPad an einen Computer, ein Tablet oder ein Smart Phone**
 
@@ -436,53 +423,6 @@ Das Host-Gerät kann z. B. ein Mobiltelefon mit Android- oder iOS-Betriebssystem
 
 Hinweis: Wenn sich das Bluetooth-Modul im Paring-Modus befindet, blinkt die LED des Moduls schnell (ca. zweimal pro Sekunde). Wenn eine Verbindung hergestellt ist, blinkt die LED langsam (ca. einmal alle 2 Sekunden). Die LED ist nur zu sehen, wenn das Gehäuse der FlipPad geöffnet ist.
 
-# Modifizieren des Mundstücks / Sticks?
-
-Mehrere Benutzer und Benutzerinnen berichteten, dass sie eine andere Form des Mundstücks bevorzugen würden. Es ist natürlich möglich, eigene Modifikationen und Erweiterungen vorzunehmen, die sich für Sie angenehm anfühlen. Hier möchten wir einige Vorschläge mit Hilfe von erschwinglichen Einweg-Zigarettenspitzen geben. Die Verbindung zwischen dem *Hygienic Stick* und der Zigarettenspitze wird mit einem kleinen Messingrohr hergestellt. Es ist auch möglich, die Zigarettenspitze abzuschneiden und in den *Hygienic Stick* zu stecken, so dass ein fester Sitz gewährleistet ist.
-
-![mouthpiece](./Bilder/fig33.png) ![mouthpiece1](./Bilder/fig33.1.png)
-
-*Abbildung 32: Modifizierte Form des Mundstücks*
-
-Unabhängig von den von Ihnen gewünschten Mundstückmodifikationen: Achten Sie stets auf einen hygienischen Betrieb und wenden Sie die im folgenden Kapitel beschriebenen Reinigungsverfahren an!
-
-# Hinweise zur Reinigung und Wartung
-
-Wenn das Mundstück verwendet wird, um die Cursor-Bewegungen über Lippen-/Mundbewegungen auszulösen, ist ein sorgfältiges Reinigungsverfahren unerlässlich, um Bakterien und gesundheitliche Probleme zu vermeiden! Lesen Sie diesen Abschnitt sorgfältig durch und wenden Sie die erforderlichen Reinigungsverfahren bei Bedarf an.
-
-**Austausch des Speichelfilters:** Der Speichelfilter befindet sich im Inneren des *Hygienic Stick*. Normalerweise sollte kein (oder fast kein) Speichel in den Stick gelangen - dies hängt jedoch stark von der Person, die das Mundstück benutzt, und ihrem Zustand ab. Wenn Speichel in den *Hygienic Stick* gelangt, verhindert der Speichelfilter das Eindringen von Feuchtigkeit in das Innere der FlipPad (bzw. den Drucksensor). Der Filter kann wie unten gezeigt ausgetauscht werden:
-
-<p align="left" width="100%"> <img width="50%" src="./Bilder/fig34.1.jpg"> </p>
-
-*Abbildung 33.1: Entfernen des Speichelfilters mit Hilfe einer normalen Schraube zum Ergreifen des Filters*
-
-<p align="left" width="100%"> <img width="50%" src="./Bilder/fig34.2.jpg"> </p>
-
-*Abbildung 33.2: Der entfernte Filter*
-
-<p align="left" width="100%"> <img width="50%" src="./Bilder/fig34.3.jpg"> </p>
-
-*Abbildung 33.3: Einsetzen eines neuen Filters (Einschieben in den Hygienestick)*
-
-**Desinfektion des Mundstücks/Hygienesticks:** Verwenden Sie zum Desinfizieren eines Mundstücks kochendes Wasser. Legen Sie den *Hygienic Stick* (ohne Speichelfilter) für mindestens fünf Minuten in kochendes Wasser. Dann lassen Sie den *Hygienic Stick* vor der nächsten Anwendung trocknen.
-
-**Ersatzsticks und Filter bestellen:** Speichelfilter (Saliva Filters) und *Hygienic Sticks* können direkt im *[Quadjoy](https://quad.life/product)*[ online shop](https://quad.life/product) bestellt werden. Wir möchten Bill und Debra Street dafür danken, dass wir ihren *QuadJoy Hygienic Stick* zusammen mit unserem FlipPad-Gerät verwenden durften - ihr seid großartig!
-
-## Hygienische Überlegungen und Risiken
-
-Wenn das Mundstück mit den Lippen betätigt wird, ist es wichtig, die folgenden hygienischen Vorsichtsmaßnahmen zu beachten:
-
-1. Ein Mundstück darf nur von einer Person benutzt werden
-2. Die Filterspitze muss ausgetauscht werden, wenn sich Speichel oder Schmutz gebildet hat
-3. Das Mundstück muss gereinigt werden, wenn sich Speichel oder Schmutz gebildet hat (siehe Kapitel "[Hinweise zur Reinigung und Wartung](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#hinweise-zur-reinigung-und-wartung)")
-
-Bei mangelnder Hygiene des Mundstücks, insbesondere wenn das Mundstück von mehreren Personen benutzt wird, ist es möglich, dass
-
-1. ein Hautausschlag entsteht
-2. Viren und Bakterien übertragen werden und Krankheiten verursachen
-3. gesundheitsgefährdende Schmutzablagerungen im Mundstück entstehen
-
-Bei falscher Positionierung der FlipPad besteht die Gefahr, dass man sich nach längerem Gebrauch unwohl fühlt, und es kann zu Muskelkrämpfen oder Muskelschmerzen durch ungewohnte Kopfhaltung kommen - achten Sie auf eine bequeme Position und planen Sie Pausen ein, wenn Sie längere Zeiträume arbeiten!
 
 # Aktualisieren der Firmware über die Arduino IDE
 
