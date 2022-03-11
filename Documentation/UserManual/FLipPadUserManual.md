@@ -4,7 +4,7 @@
 
 
 
-![FlipPadLogo](./Bilder/FlipPadLogo.png)
+![FlipPadLogo](./Bilder/flipPadLogo.png)
 
 **Table of Contents**
 
