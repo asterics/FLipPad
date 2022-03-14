@@ -36,7 +36,7 @@ The AsTeRICS Foundation
 The FlipPad is available with a 3d-printed enclosure. Design files for the 3d-printed case are provided in the [Github repository]!!Link gibt es noch nicht!!(https://github.com/asterics/FlipPad/tree/master/Hardware/case-design/3D_printer). The primary method for interacting with the FlipPad is the transparent stick (“Hygienic Stick” or “mouthpiece”) which is attached to the front of the FlipPad. The *Hygienic Stick* is made by the company *QuadJoy*.  Replacement sticks can be ordered via the homepage: [www.quadjoy.com](https://quad.life/). We want to thank Bill and Debra Street of *QuadJoy* for letting us use their mouthpiece for our FlipPad construction kit! (Please note the cleaning instructions in the dedicated section of this manual.)
 !!Neues Bild 
 <p align="left" width="100%">
-    <img width="60%" src="./Bilder/f2.svg">
+    <img width="60%" src="./Bilder/3Dfp-neu.jpg">
 </p>
 
 *Figure 1*: Using the FlipPad for computer control via lip interaction
