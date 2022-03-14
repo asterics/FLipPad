@@ -32,7 +32,7 @@ Die AsTeRICS Foundation
 
 Das FlipPad ist mit einem 3d-gedruckten Gehäuse erhältlich. Designdateien für das 3d-gedruckte Gehäuse werden im [Github-Repository](https://github.com/asterics/FLipPad/tree/main/Hardware/case-design/smallTrackpad_TM035035) bereitgestellt. In weiterer Folge wird eine FlipPad mit einem größeren Touchbett entwickelt. 
 (neues Bild mit Steuerung von FlipPad)
-<p align="left" width="100%"> <img width="60%" src="./Bilder/f2.svg"> </p>
+<p align="left" width="100%"> <img width="60%" src="./Bilder/3Dfp.jpg"> </p>
 
 *Abbildung 1*: Verwendung des FlipPad für die Computersteuerung durch Fingerinteraktion
 
