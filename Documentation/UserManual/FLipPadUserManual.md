@@ -241,19 +241,6 @@ Turning the maximum speed setting to a low level is useful if a user desires to 
 
 This setting is enabled by clicking *"Show advanced options"*. The acceleration setting allows influencing the acceleration behavior of the mouse cursor: if acceleration is set to a low level, even a strong deflection of the stick will start a slow (but progressing) cursor movement which makes it easier to reach small targets precisely.
 
-#### Drift compensation range + Drift compensation gain
-//!! Gibts nicht bei dem FilpPad
-These settings are enabled by clicking *“Show advanced options”*.
-Due to mechanical reasons, the force sensors of the FlipPad show small inaccuracies which can result in mouse cursor drifting. This effect is critical if using very small deadzone settings (very sensitive mouse control): if you move the mouthpiece/joystick to one direction and then release it, the mouse cursor continues to slightly “drift” in this direction because the sensor values do not settle at the calibrated middle position. Since Version 2.9, the FlipPad offers a “drift compensation” feature, where the software tries to calculate the expected drift caused by the last interaction and corrects the bias, so that the performance is improved especially for small deadzone settings. 
-
-The “drift compensation gain” value represents the level of correction, whereas the “compensation range” value represents the amount of force which is taken into account for the calculation. 
-Each of these values has a corresponding slider. It is also possible to set different values for the x-axis und the y-axis after clicking “*show x/y separately*” (see the following figure).
-
-<p align="left" width="100%">
-    <img width="100%" src="./Bilder/fig4.1.svg">
-</p>
-
-*Figure 17: FlipPad Configuration Manager: Tab PAD-CONFIG, separate x/y*
 
 The best values for a particular FlipPad can be determined by experimentation.
 For example: 
