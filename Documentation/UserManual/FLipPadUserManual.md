@@ -46,9 +46,8 @@ Additionally, two external momentary switches can be attached to the jack plug c
 **Users can interact with the FlipPad in several ways:**
 
 1. by touching the mouthpiece with the lips or fingers and applying small forces in vertical or horizontal direction
-2. by increasing or reducing pressure in the mouthpiece (puffing or sipping)
-3. by actuating (up to) 3 momentary switches / pushbuttons
-4. if desired, a longer plastic tube can be attached to the pressure sensor so that the joystick can be used with a finger and a separate mouthpiece allows sip/puff control. Alternatively, pressure can be influenced by attaching a rubber ball to the plastic tube (pillow switch / soft switch).
+2. by actuating (up to) 3 momentary switches / pushbuttons
+3. if desired, a longer plastic tube can be attached to the pressure sensor so that the joystick can be used with a finger and a separate mouthpiece allows sip/puff control. Alternatively, pressure can be influenced by attaching a rubber ball to the plastic tube (pillow switch / soft switch).
 
 **The hardware features of the FlipPad:** (see pictures at the bottom of this list)
 
@@ -144,7 +143,7 @@ When connecting the FlipPad via the provided USB-micro cable, do not touch the m
 **Please note** that every time you apply power to the FlipPad device (respectively when you plug it in) the **zero-calibration is performed which is indicated by blinking all 3 LEDs**. It is important that you do not touch the joystick / mouthpiece until the LEDs stopped blinking. 
 
 #### Using the FlipPad with Smart Phones or Tablets that provide USB-OTG
-//neue Fotos 
+
 The FlipPad should work with any operating system which supports USB HID (Mouse/Keyboard/Joystick) devices, such as Windows, Linux or MacOS. Several Android devices provide an USB port with USB-OTG (“on-the-go”) functionality. If your device supports “OTG” you can attach the FlipPad using an USB-OTG-adapter (see picture below) and it should work as a normal mouse (you will get a mouse cursor) or keyboard. You can test if your Android phone or tablet features the USB-OTG function with the “OTG checker” app.
 
 <p align="left" width="100%">
