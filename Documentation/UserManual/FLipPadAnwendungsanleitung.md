@@ -31,8 +31,8 @@ Die AsTeRICS Foundation
 # Hardware Übersicht
 
 Das FlipPad ist mit einem 3d-gedruckten Gehäuse erhältlich. Designdateien für das 3d-gedruckte Gehäuse werden im [Github-Repository](https://github.com/asterics/FLipPad/tree/main/Hardware/case-design/smallTrackpad_TM035035) bereitgestellt. In weiterer Folge wird eine FlipPad mit einem größeren Touchbett entwickelt. 
-(neues Bild mit Steuerung von FlipPad)
-<p align="left" width="100%"> <img width="60%" src="./Bilder/f2.svg"> </p>
+
+<p align="left" width="100%"> <img width="60%" src="./Bilder/fp5-neu.jpg"> </p>
 
 *Abbildung 1*: Verwendung des FlipPad für die Computersteuerung durch Fingerinteraktion
 
@@ -46,28 +46,20 @@ Zusätzlich können zwei externe Taster an die Klinkenbuchsen auf der linken Sei
 
 
 **Die Hardware-Eigenschaften des FlipPad:** (siehe Bilder am Ende dieser Liste)
-(bei (a)bin ich mir nicht sicher ob das bei dem FlipPad auch geht)
-(a)    "Zero-way"-Joystick/Mundstück: sehr geringe Kräfte reichen aus, um eine Auf-/Ab-/Links-/Rechts-Bewegung zu erzeugen
 
-o  Der Zero-Way-Joystick kann mit Fingern oder Zehen etc. bedient werden
+(a)    Ein eingebauter Schalter ("Taste 1 / B1") am Gerät, z.B. zum Ändern der aktiven Konfiguration (Funktionen)
 
-o Er kann auch als Mundstück verwendet werden (Betätigung durch Lippen/Mundbewegungen)
+(b)    Zwei 3,5-mm-Klinkenbuchsen zum Anschluss von externen Schaltern / Tastern zur Auslösung von Zusatzfunktionen ("Taster 2 / B2" und "Taster 3 / B3")
 
-o Falls gewünscht, können Schluck-/Puste-Aktivitäten in das Mundstück zusätzliche Funktionen auslösen
+(c)    3 Leuchtdioden (LED) zur Anzeige der aktiven Konfiguration, des Kalibrierungsvorgangs usw.
 
-(b)    Ein eingebauter Schalter ("Taste 1 / B1") am Gerät, z.B. zum Ändern der aktiven Konfiguration (Funktionen)
+(d)    Universal-Infrarot-Fernbedienungsempfänger und -sender
 
-(c)    Zwei 3,5-mm-Klinkenbuchsen zum Anschluss von externen Schaltern / Tastern zur Auslösung von Zusatzfunktionen ("Taster 2 / B2" und "Taster 3 / B3")
+(e)    "Hot Shoe"-Adapter zur Montage an einem Manfrotto Magic Arm oder einem ähnlichen Montagesystem
 
-(d)    3 Leuchtdioden (LED) zur Anzeige der aktiven Konfiguration, des Kalibrierungsvorgangs usw.
+(f)    Firmware-Aktualisierung über die FlipPad-Webanwendung auf [FlipPad.asterics.eu](https://flippad.asterics.eu/index_pad.htm)
 
-(e)    Universal-Infrarot-Fernbedienungsempfänger und -sender
-
-(f)    "Hot Shoe"-Adapter zur Montage an einem Manfrotto Magic Arm oder einem ähnlichen Montagesystem
-
-(g)    Firmware-Aktualisierung über die FlipPad-Webanwendung auf [FlipPad.asterics.eu](https://flippad.asterics.eu/index_pad.htm)
-
-(h)    Optionale Zusatzplatine für Bluetooth (z. B. zur Steuerung von Smartphones oder iOS-Geräten)
+(g)    Optionale Zusatzplatine für Bluetooth (z. B. zur Steuerung von Smartphones oder iOS-Geräten)
 
 
 
@@ -85,7 +77,10 @@ Auf der linken Seite des FlipPad befindet sich eine Taste (B1), die eine konfigu
 
 ## 3D-gedrucktes Gehäuse
 
-<p align="left" width="100%" > <img width="55%" src=".Bilder/fp5-neu.jpg"> </p>
+
+<p align="left" width="100%">
+    <img width="60%" src="./Bilder/3Dfp-neu.jpg">
+</p>
 *Abbildung 4*: FlipPad 3D-gedrucktes Gehäuse 
 
 Es sind verschiedene Alternativen für das FlipPad-Gehäuse verfügbar, z.B. eine Acrylversion. Die empfohlene Version ist das 3D-gedruckte Gehäuse, das auch in der Bauanleitung dokumentiert ist. Die 3D-Designdateien können vom [Github Repository](https://github.com/asterics/FLipPad/tree/main/Hardware) heruntergeladen werden. 
@@ -100,16 +95,9 @@ Das optionale Bluetooth-Zusatzmodul ermöglicht den Anschluss des FlipPad als Bl
 
 # Anweisungen für die ordnungsgemäße Montage und Verwendung
 
-**1. Befestigen Sie den "Hygienic Stick**
 
-![hygienic stick](./Bilder/f7.png)
-
-*Abbildung 6*: Befestigen des Hygienic Stick
-
-Verwenden Sie einen sauberen "Hygienic Stick", stecken Sie ihn auf den vorderen Anschluss und drehen Sie ihn im Uhrzeigersinn (nicht zu fest).
-
-//Fotos am Dienstag machen!!
-**2. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** ![hygienic stick](./Bilder/f8.png)
+**1. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** 
+<p align="left" width="100%"> <img width="40%" src="./Bilder/fp.jpg"> </p>
 
 *Abbildung 7*: Montieren des FlipPad
 
@@ -117,19 +105,14 @@ Das Bild zeigt eine Kombination aus "[Manfrotto Gelenkarm](https://www.manfrotto
 
 
 
-![Fingers](./Bilder/fp9.jpg)
+<p align="left" width="100%"> <img width="40%" src="./Bilder/fp9.jpg"> </p>
 
 *Abbildung 9*: Verwendung der FlipPad mit den Fingern
 
-Wenn der Benutzer / die Benutzerin die FlipPad mit einem Finger oder dem Daumen betätigen möchte, montieren Sie das System so, dass sich die Hand in einer Ruheposition befindet und der Finger den Joystick ohne Belastung berühren kann. Bringen Sie einen oder zwei zusätzliche externe Schalter an, falls gewünscht, und montieren Sie die Schalter an geeigneten Stellen (z. B. an den Beinen/Zehen/Schultern usw.).
+Wenn der Benutzer / die Benutzerin das FlipPad mit einem Finger oder dem Daumen betätigen möchte, montieren Sie das System so, dass sich die Hand in einer Ruheposition befindet und der Finger den Joystick ohne Belastung berühren kann. Bringen Sie einen oder zwei zusätzliche externe Schalter an, falls gewünscht, und montieren Sie die Schalter an geeigneten Stellen (z. B. an den Beinen/Zehen/Schultern usw.).
 
-![ball-switch](./Bilder/f11.png)
 
-*Abbildung 10*: Verwendung der FlipPad als Ball-Switch-Schnittstelle
-
-Wenn eine Interaktionsmethode mit einem weichen Ball gewünscht wird, kann ein Kunststoffrohr mit einem *Luer-Lock*-Adapter am vorderen Anschluss der FlipPad befestigt werden. Dieser Kunststoffschlauch kann mit einem weichen Ball verbunden werden (das Bild oben zeigt ein billiges "Hundespielzeug" aus einer Tierhandlung). Diese Lösung kann als weicher Kopfschalter / Kissenschalter oder Schulterschalter verwendet werden und kann mit anderen externen Schaltern kombiniert werden.
-
-**3. Anschließen der FlipPad an einen Computer, ein Tablet oder ein Smart Phone**
+**2. Anschließen des FlipPad an einen Computer, ein Tablet oder ein Smart Phone**
 
 Wenn Sie das FlipPad über das mitgelieferte USB-Mikrokabel anschließen, berühren Sie das Touchpad nicht, solange die LEDs blinken (das anfängliche Blinken zeigt die Phase der Nullpunktkalibrierung an). Warten Sie, bis das Gerät vom Computer erkannt wird, und bewegen Sie dann den Joystick/das Touchpad, um den korrekten Betrieb zu überprüfen.
 
@@ -141,13 +124,13 @@ Wenn Sie das FlipPad über das mitgelieferte USB-Mikrokabel anschließen, berüh
 
 #### Verwendung der FlipPad mit Smart Phones oder Tablets
 
-Das FlipPad sollte mit allen Betriebssystemen funktionieren, die USB-HID-Geräte (Maus/Tastatur/Joystick) unterstützen, wie Windows, Linux oder MacOS. Einige Android-Geräte bieten einen USB-Anschluss mit USB-OTG-Funktionalität ("on-the-go"). Wenn Ihr Gerät "OTG" unterstützt, können Sie die FlipPad mit einem USB-OTG-Adapter (siehe Bild unten) anschließen und sie sollte wie eine normale Maus (Sie erhalten einen Mauszeiger) oder Tastatur funktionieren. Sie können mit der App "OTG Checker" testen, ob Ihr Android-Telefon oder Android-Tablet die USB-OTG-Funktion unterstützt.
+Das FlipPad sollte mit allen Betriebssystemen funktionieren, die USB-HID-Geräte (Maus/Tastatur/Joystick) unterstützen, wie Windows, Linux oder MacOS. Einige Android-Geräte bieten einen USB-Anschluss mit USB-OTG-Funktionalität ("on-the-go"). Wenn Ihr Gerät "OTG" unterstützt, können Sie das FlipPad mit einem USB-OTG-Adapter (siehe Bild unten) anschließen und sie sollte wie eine normale Maus (Sie erhalten einen Mauszeiger) oder Tastatur funktionieren. Sie können mit der App "OTG Checker" testen, ob Ihr Android-Telefon oder Android-Tablet die USB-OTG-Funktion unterstützt.
 
-![smartphone](./Bilder/fp-tab.jpg)
+<p align="left" width="100%"> <img width="40%" src="./Bilder/fp-tab.jpg"> </p>
 
-*Abbildung 12*: Verwendung der FlipPad mit dem Smart Phone
+*Abbildung 12*: Verwendung desFlipPad mit dem Smart Phone
 
-#### Verwendung der FlipPad über Bluetooth
+#### Verwendung des FlipPad über Bluetooth
 
 Das Bluetooth - Zusatzmodul für das FlipPad ermöglicht die kabellose Maus-/Tastatursteuerung von Computern, Tablets und Smartphones. Darüber hinaus können iPhones oder iPads über VoiceOver & Assistive-Switch-Unterstützung genutzt werden. Weitere Informationen finden Sie im Kapitel *[Verwendung des Bluetooth-Moduls](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#verwendung-des-bluetooth-moduls)*.
 
@@ -155,7 +138,7 @@ Das Bluetooth - Zusatzmodul für das FlipPad ermöglicht die kabellose Maus-/Tas
 
 Der [FlipPad Konfigurationsmanager](https://flippad.asterics.eu/index_pad.htm) bietet eine grafische Benutzeroberfläche (GUI) zum Ändern und Speichern von Einstellungen des FlipPad-Geräts, sodass alle Merkmale und Funktionen an persönliche Vorlieben und Bedürfnisse angepasst werden können. **Derzeit muss der Google Chrome-Browser (oder ein Chromium-basierter Browser) verwendet werden.** Der Konfigurationsmanager ist über die folgende Website zugänglich: **FlipPad.asterics.eu**. Der FlipPad-Konfigurationsmanager sendet und empfängt Informationen von/zu dem FlipPad. Diese Informationsübertragung erfolgt über einen Kommunikationsanschluss (COM-Anschluss). Die folgende Abbildung zeigt die Einstiegsseite des FlipPad-Konfigurationsmanagers:
 
-<p align="left" width="100%"> <img width="70%" src="./Bilder/fpk1-de.png"> </p>
+<p align="left" width="100%"> <img width="50%" src="./Bilder/fpk1-de.png"> </p>
 
 *Abbildung 13: Willkommensseite des FlipPad-Konfigurationsmanagers*
 
@@ -168,7 +151,7 @@ Gehen Sie folgendermaßen vor, um das Gerät anzuschließen:
 3. Sobald der COM-Port ausgewählt ist, klicken Sie auf die Schaltfläche "Verbinden" am unteren Rand des Auswahlfeldes.
 4. Nach erfolgreicher Verbindung des COM-Ports wird das Hauptfenster (siehe Abbildung 14) angezeigt und Sie sollten ein Live-Feedback der Stick-Bewegung sehen. Der Port-Status in der oberen rechten Ecke des Fensters zeigt "verbunden" an:
 
-   ![ConfigManager](./Bilder/fpk2-de.png)
+  <p align="left" width="100%"> <img width="50%" src="./Bilder/fpk2-de.png"> </p>
 
 *Abbildung 14*: FlipPad Konfigurationsmanager
 
@@ -184,7 +167,7 @@ Im Tab PAD-CONFIG des FlipPad-Konfigurationsmanagers können Sie die *Geschwindi
 
 #### Pad-Verwendung definieren (“Verwende Touchpad für”)
 
-Im Tab PAD-CONFIG ganz oben kann die Hauptfunktion des Pads ausgewählt werden. Standardmäßig erzeugt die Pad Mausbewegungen. Das Pad kann jedoch auch für alternative Aktionen verwendet werden (z. B. Drücken der Taste 'A', wenn das Pad nach oben gedrückt wird), die im Tab ACTIONS festgelegt werden können (siehe Abschnitt //! gibts noch nicht in GIT*[Zuweisung von verschiedenen Aktionen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#zuweisung-von-verschiedenen-aktionen-tab-aktionen)*. Außerdem kann der StickMode einen echten Joystick oder ein Gamepad nachahmen (siehe Abschnitt *[Verwendung des Sticks für Joystick-Bewegungen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#verwenden-des-sticks-f%C3%BCr-joystick-bewegungen)*.
+Im Tab PAD-CONFIG ganz oben kann die Hauptfunktion des Pads ausgewählt werden. Standardmäßig erzeugt die Pad Mausbewegungen. Das Pad kann jedoch auch für alternative Aktionen verwendet werden (z. B. Drücken der Taste 'A', wenn das Pad nach oben gedrückt wird), die im Tab ACTIONS festgelegt werden können (siehe Abschnitt *[Zuweisung von verschiedenen Aktionen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#zuweisung-von-verschiedenen-aktionen-tab-aktionen)*. Außerdem kann der StickMode einen echten Joystick oder ein Gamepad nachahmen (siehe Abschnitt *[Verwendung des Sticks für Joystick-Bewegungen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#verwenden-des-sticks-f%C3%BCr-joystick-bewegungen)*.
 
 
 
@@ -192,7 +175,7 @@ Im Tab PAD-CONFIG ganz oben kann die Hauptfunktion des Pads ausgewählt werden. 
 
 Das FlipPad wird mit einer HotShoe 3/8"-Montageschraube befestigt, die sich an der Unterseite des FlipPad-Gehäuses befindet. Die Ausrichtung kann je nach den Vorlieben des Benutzers geändert werden. Ist die FlipPad z.B. verkehrt herum montiert, kann die Pad-Ausrichtung entsprechend gewählt werden, so dass die Auf/Ab/Links/Rechts-Bewegungen weiterhin korrekt interpretiert werden. Ein Klick auf "NACH RECHTS DREHEN" ändert die Ausrichtung um 90°. Es sind Ausrichtungseinstellungen für 0 / 90 / 180 und 270 Grad möglich, so dass jede Einbaulage möglich ist.
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk3-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk3-de.png"> </p>
 
 *Abbildung 15: FlipPad Konfigurationsmanager: Tab PAD-CONFIG, Bildlaufleisten*
 
@@ -210,7 +193,7 @@ Die *Deadzone*-Einstellung definiert einen passiven Bereich für die Padbewegung
 
 Falls gewünscht, können die Sensitivitäts- und Deadzonewerte für horizontale oder vertikale Bewegungen individuell geändert werden. Wählen Sie dazu die Option "*zeige x/y getrennt*", wie unten gezeigt:
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk4-de.png"> </p> *Abbildung 16: FlipPad Konfigurationsmanager: Tab PAD-CONFIG, zeige x/y getrennt*
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk4-de.png"> </p> *Abbildung 16: FlipPad Konfigurationsmanager: Tab PAD-CONFIG, zeige x/y getrennt*
 
 #### Maximale Geschwindigkeit
 
@@ -221,17 +204,6 @@ Die Einstellung der maximalen Geschwindigkeit auf ein niedriges Niveau ist nütz
 #### Trackpad-Sensitivität
 
 Diese Einstellung wird durch Klicken auf *"Zeige erweiterte Einstellungen"* aktiviert. Die Trackpad-Sensitivität erlaubt es, das Beschleunigungsverhalten des Mauszeigers zu beeinflussen: Wenn die Trackpad-Sensitivität auf einen niedrigen Wert eingestellt ist, wird selbst eine starke Auslenkung des Pads eine langsame (aber fortschreitende) Bewegung des Mauszeigers auslösen, was es einfacher macht, kleine Ziele präzise zu erreichen.
-!!Gibts beim Pad nicht 
-#### Drift compensation range + Drift compensation gain
-
-Diese Einstellungen werden durch Klicken auf *"Zeige erweiterte Einstellungen"* aktiviert. Aus mechanischen Gründen weisen die Kraftsensoren des FlipPads kleine Ungenauigkeiten auf, die zu einem Abdriften des Mauszeigers führen können. Kritisch ist dieser Effekt bei sehr kleinen Deadzone-Einstellungen (sehr feinfühlige Maussteuerung): Wenn Sie das Touchpad/den Joystick in eine Richtung bewegen und dann loslassen, "driftet" der Mauszeiger weiterhin leicht in diese Richtung, da sich die Sensorwerte nicht an der kalibrierten Mittelposition einpendeln. 
-
-Der Wert "Drift compensation gain" steht für den Grad der Korrektur, während der Wert "Drift compensation range" für den Betrag der Kraft steht, die bei der Berechnung berücksichtigt wird. Jeder dieser Werte hat einen entsprechenden Schieberegler. 
-
-Die besten Werte für eine bestimmte FlipPad können durch Experimentieren ermittelt werden. Zum Beispiel:
-
-1. Wischen Sie das Touchpad nach oben und lassen Sie es los. Wenn der Mauszeiger weiterhin nach oben driftet, versuchen Sie, den Wert für den vertikalen Ausgleich zu erhöhen.
-2. Wischen Sie das Touchpad nach links und lassen Sie es los. Wenn der Mauszeiger nach rechts driftet, versuchen Sie, den horizontalen Ausgleichswert zu verringern.
 
 ### Verwenden des Pads für Joystick-Bewegungen
 
@@ -255,7 +227,7 @@ Gewünschte Joystick-Tasten-Aktivitäten können mit Saug/Puste- oder anderen In
 
 Wenn der FlipPad-Stick mit dem Mund verwendet wird, kann der Benutzer Aktionen auslösen, indem er am Mundstück saugt oder pustet. Der Schlauch ist mit einem Drucksensor verbunden, der einen Wert ausgibt, der dem festgestellten Druck entspricht. Wenn der Benutzer saugt, sinkt der Sensorwert, und wenn er pustet, steigt der Wert. Über die Registerkarte "AKTIONEN" können Sie Aktionen für das Saugen oder Pusten zuweisen, wie im nächsten Abschnitt erläutert wird. Die Schwellenwerte für Saugen und Pusten können Sie auf im Tab "SAUG-PUSTE-STEUERUNG"" nach Belieben einstellen. Wenn die FlipPad angeschlossen ist, können Sie in dieser Registerkarte auch die aktuellen Druckwerte und die Auslösung von Saug- und Puste-Aktionen überwachen:
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk6-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk6-de.png"> </p>
 
 *Figure 20:* Tab SAUG-PUSTE-STEUERUNG
 
@@ -275,7 +247,7 @@ Das Tab AKTIONEN ermöglicht die Zuordnung von Benutzeraktivitäten zu gewünsch
 
 Die Aktionen können durch Anklicken des Eintrags in der Aktionskonfigurationstabelle geändert werden (siehe das blaue Feld in Abbildung 21). Die Tabelle zeigt die Aktionen für alle Benutzeraktivitäten an, entweder nur für den gerade aktiven Slot oder für alle Slots (was einen Überblick über alle Aktionen gibt). Wenn Sie auf eine bestimmte Aktion klicken, öffnet sich ein Fenster, in dem Sie die Aktionskategorie (in Abbildung 22 für Button 1: Gerät) und die Aktion selbst (hier: Nächsten Slot laden) ändern können, siehe Abbildung 22.
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk7-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk7-de.png"> </p>
 
 *Abbildung 21: Benutzeraktivitäten verschiedene Aktionen zuordnen*
 
@@ -367,7 +339,7 @@ Die nächste Abbildung (Abbildung 25) zeigt eine ähnliche Liste, aber die leuch
 
 Im Tab SLOTS können Sie neue Konfigurations-Speicherplätze (Slots) erstellen, vorhandene Slots löschen, einen einzelnen oder alle Slots herunterladen und eine Datei hochladen, die eine vollständige Konfiguration mit mehreren Slots enthält. Nach dem Start des FlipPad-Konfigurationsmanagers ist nur ein Standard-Slot namens "mouse" vorhanden. Wenn Sie mit der Schaltfläche "SLOT ANLEGEN" einen Slot erstellen, wird **der aktuelle Slot kopiert und an den letzten vorhandenen Slot angehängt**. Bevor Sie den neuen Slot erstellen, vergeben Sie im entsprechenden Feld ("Name für neuen Slot eingeben") einen Namen, der Ihnen hilft, sich an den Zweck des Slots zu erinnern:
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk11-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk11-de.png"> </p>
 
 *Abbildung 26: FlipPad Konfigurationsmanager: Tab SLOTS*
 
@@ -401,7 +373,7 @@ Hier können Sie die installierte und die verfügbare Version der Firmware des B
 
 Der FlipPad-Stick ist mit vier Kraftsensoren verbunden - einer für jede Bewegungsrichtung (oben, unten, links, rechts). Der numerische Wert jedes dieser Sensoren wird auf der Registerkarte "VISUALISIERUNG" angezeigt. Die aktuellen Werte können überwacht werden, wenn das FlipPad-Gerät angeschlossen ist. Wenn der Stick bewegt wird, ändern sich die Sensorwerte. Insbesondere erhöht eine Bewegung in jede Richtung den jeweiligen Sensorwert. Die Sensorwerte hängen auch von der Verwendung der Einstellschrauben ab, die die Kraft verändern, die über 4 Metallfedern auf die Sensorpads ausgeübt wird. Daher sollten beim Zusammenbau der FlipPad die aktuellen Sensorwerte als Richtwerte verwendet werden. **Wenn der Stick nicht berührt wird, sollten die Werte ähnlich wie auf dem Screenshot unten aussehen. Alle Werte sollten in ähnlicher Weise sinken und steigen, wenn der Stick bewegt wird. Signifikante Abweichungen in eine Richtung deuten auf ein Sensorproblem hin. Die Sensoren sollten überprüft werden und müssen möglicherweise ausgetauscht werden.**
 
-![visualisation](./Bilder/fpk13.png)
+![visualisation](./Bilder/fpk13-de.png)
 
 *Abbildung 28: Links: Live-Anzeige der Kraftsensorwerte; Mitte: aktueller Slot mit den 3 Tasten (wenn eine Taste gedrückt wird, wird der entsprechende Kreis gelb); Rechts: Sip und Puff Live-Wert und aktuelle Schwellenwerte*
 
@@ -435,7 +407,7 @@ Das optionale Bluetooth-Zusatzmodul ermöglicht den Anschluss und die Steuerung 
 Das Bluetooth-Modul wird auf den internen 10-poligen Anschluss der FlipPad gesteckt. Öffnen Sie dazu das FlipPad-Gehäuse und schieben Sie das Modul so weit wie möglich auf die Stiftleiste:
 
 <p align="left" width="100%"> <img width="40%" src="./Bilder/fig31.jpg"> </p>
-
+Wird morgen gemacht!!
 *Abbildung 31: Bluetooth-Modul*
 
 #### Verbinden mit einem Bluetooth-Host-Gerät (Pairing)
@@ -444,53 +416,6 @@ Das Host-Gerät kann z. B. ein Mobiltelefon mit Android- oder iOS-Betriebssystem
 
 Hinweis: Wenn sich das Bluetooth-Modul im Paring-Modus befindet, blinkt die LED des Moduls schnell (ca. zweimal pro Sekunde). Wenn eine Verbindung hergestellt ist, blinkt die LED langsam (ca. einmal alle 2 Sekunden). Die LED ist nur zu sehen, wenn das Gehäuse der FlipPad geöffnet ist.
 
-# Modifizieren des Mundstücks / Sticks?
-
-Mehrere Benutzer und Benutzerinnen berichteten, dass sie eine andere Form des Mundstücks bevorzugen würden. Es ist natürlich möglich, eigene Modifikationen und Erweiterungen vorzunehmen, die sich für Sie angenehm anfühlen. Hier möchten wir einige Vorschläge mit Hilfe von erschwinglichen Einweg-Zigarettenspitzen geben. Die Verbindung zwischen dem *Hygienic Stick* und der Zigarettenspitze wird mit einem kleinen Messingrohr hergestellt. Es ist auch möglich, die Zigarettenspitze abzuschneiden und in den *Hygienic Stick* zu stecken, so dass ein fester Sitz gewährleistet ist.
-
-![mouthpiece](./Bilder/fig33.png) ![mouthpiece1](./Bilder/fig33.1.png)
-
-*Abbildung 32: Modifizierte Form des Mundstücks*
-
-Unabhängig von den von Ihnen gewünschten Mundstückmodifikationen: Achten Sie stets auf einen hygienischen Betrieb und wenden Sie die im folgenden Kapitel beschriebenen Reinigungsverfahren an!
-
-# Hinweise zur Reinigung und Wartung
-
-Wenn das Mundstück verwendet wird, um die Cursor-Bewegungen über Lippen-/Mundbewegungen auszulösen, ist ein sorgfältiges Reinigungsverfahren unerlässlich, um Bakterien und gesundheitliche Probleme zu vermeiden! Lesen Sie diesen Abschnitt sorgfältig durch und wenden Sie die erforderlichen Reinigungsverfahren bei Bedarf an.
-
-**Austausch des Speichelfilters:** Der Speichelfilter befindet sich im Inneren des *Hygienic Stick*. Normalerweise sollte kein (oder fast kein) Speichel in den Stick gelangen - dies hängt jedoch stark von der Person, die das Mundstück benutzt, und ihrem Zustand ab. Wenn Speichel in den *Hygienic Stick* gelangt, verhindert der Speichelfilter das Eindringen von Feuchtigkeit in das Innere der FlipPad (bzw. den Drucksensor). Der Filter kann wie unten gezeigt ausgetauscht werden:
-
-<p align="left" width="100%"> <img width="50%" src="./Bilder/fig34.1.jpg"> </p>
-
-*Abbildung 33.1: Entfernen des Speichelfilters mit Hilfe einer normalen Schraube zum Ergreifen des Filters*
-
-<p align="left" width="100%"> <img width="50%" src="./Bilder/fig34.2.jpg"> </p>
-
-*Abbildung 33.2: Der entfernte Filter*
-
-<p align="left" width="100%"> <img width="50%" src="./Bilder/fig34.3.jpg"> </p>
-
-*Abbildung 33.3: Einsetzen eines neuen Filters (Einschieben in den Hygienestick)*
-
-**Desinfektion des Mundstücks/Hygienesticks:** Verwenden Sie zum Desinfizieren eines Mundstücks kochendes Wasser. Legen Sie den *Hygienic Stick* (ohne Speichelfilter) für mindestens fünf Minuten in kochendes Wasser. Dann lassen Sie den *Hygienic Stick* vor der nächsten Anwendung trocknen.
-
-**Ersatzsticks und Filter bestellen:** Speichelfilter (Saliva Filters) und *Hygienic Sticks* können direkt im *[Quadjoy](https://quad.life/product)*[ online shop](https://quad.life/product) bestellt werden. Wir möchten Bill und Debra Street dafür danken, dass wir ihren *QuadJoy Hygienic Stick* zusammen mit unserem FlipPad-Gerät verwenden durften - ihr seid großartig!
-
-## Hygienische Überlegungen und Risiken
-
-Wenn das Mundstück mit den Lippen betätigt wird, ist es wichtig, die folgenden hygienischen Vorsichtsmaßnahmen zu beachten:
-
-1. Ein Mundstück darf nur von einer Person benutzt werden
-2. Die Filterspitze muss ausgetauscht werden, wenn sich Speichel oder Schmutz gebildet hat
-3. Das Mundstück muss gereinigt werden, wenn sich Speichel oder Schmutz gebildet hat (siehe Kapitel "[Hinweise zur Reinigung und Wartung](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#hinweise-zur-reinigung-und-wartung)")
-
-Bei mangelnder Hygiene des Mundstücks, insbesondere wenn das Mundstück von mehreren Personen benutzt wird, ist es möglich, dass
-
-1. ein Hautausschlag entsteht
-2. Viren und Bakterien übertragen werden und Krankheiten verursachen
-3. gesundheitsgefährdende Schmutzablagerungen im Mundstück entstehen
-
-Bei falscher Positionierung der FlipPad besteht die Gefahr, dass man sich nach längerem Gebrauch unwohl fühlt, und es kann zu Muskelkrämpfen oder Muskelschmerzen durch ungewohnte Kopfhaltung kommen - achten Sie auf eine bequeme Position und planen Sie Pausen ein, wenn Sie längere Zeiträume arbeiten!
 
 # Aktualisieren der Firmware über die Arduino IDE
 

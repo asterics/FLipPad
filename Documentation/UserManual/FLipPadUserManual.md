@@ -4,7 +4,7 @@
 
 
 
-![FlipPadLogo](./Bilder/FlipPadLogo.svg)
+![FlipPadLogo](./Bilder/flippadLogo.png)
 
 **Table of Contents**
 
@@ -34,9 +34,9 @@ The AsTeRICS Foundation
 # Hardware overview
 
 The FlipPad is available with a 3d-printed enclosure. Design files for the 3d-printed case are provided in the [Github repository]!!Link gibt es noch nicht!!(https://github.com/asterics/FlipPad/tree/master/Hardware/case-design/3D_printer). The primary method for interacting with the FlipPad is the transparent stick (“Hygienic Stick” or “mouthpiece”) which is attached to the front of the FlipPad. The *Hygienic Stick* is made by the company *QuadJoy*.  Replacement sticks can be ordered via the homepage: [www.quadjoy.com](https://quad.life/). We want to thank Bill and Debra Street of *QuadJoy* for letting us use their mouthpiece for our FlipPad construction kit! (Please note the cleaning instructions in the dedicated section of this manual.)
-!!Neues Bild 
+
 <p align="left" width="100%">
-    <img width="60%" src="./Bilder/f2.svg">
+    <img width="60%" src="./Bilder/3Dfp-neu.jpg">
 </p>
 
 *Figure 1*: Using the FlipPad for computer control via lip interaction
@@ -46,33 +46,24 @@ Additionally, two external momentary switches can be attached to the jack plug c
 **Users can interact with the FlipPad in several ways:**
 
 1. by touching the mouthpiece with the lips or fingers and applying small forces in vertical or horizontal direction
-2. by increasing or reducing pressure in the mouthpiece (puffing or sipping)
-3. by actuating (up to) 3 momentary switches / pushbuttons
-4. if desired, a longer plastic tube can be attached to the pressure sensor so that the joystick can be used with a finger and a separate mouthpiece allows sip/puff control. Alternatively, pressure can be influenced by attaching a rubber ball to the plastic tube (pillow switch / soft switch).
+2. by actuating (up to) 3 momentary switches / pushbuttons
+3. if desired, a longer plastic tube can be attached to the pressure sensor so that the joystick can be used with a finger and a separate mouthpiece allows sip/puff control. Alternatively, pressure can be influenced by attaching a rubber ball to the plastic tube (pillow switch / soft switch).
 
 **The hardware features of the FlipPad:** (see pictures at the bottom of this list)
 
-(a)    “Zero-way”-joystick / mouthpiece: very low forces are sufficient to create up/down/left/right movement
+(a)    One built-in switch (“Button 1 / B1”) on the device, e.g. to change the active configuration (functions)
 
-        o  The zero-way-joystick can be used with fingers or toes etc. 
+(b)    Two 3.5 mm jack plug sockets for attaching external switches to trigger additional functions (“Button 2 / B2” and “Button 3 / B3”)
 
-        o  It can also be used as a mouthpiece (actuated by lips / mouth movements) 
+(c)    3 Indicator Light Emitting Diodes (LEDs) for showing the active configuration, calibration procedure etc.
 
-        o  If desired, sip / puff activities into the mouthpiece can trigger additional functions
+(d)    Universal infrared remote control receiver and transmitter
 
-(b)    One built-in switch (“Button 1 / B1”) on the device, e.g. to change the active configuration (functions)
+(e)    “Hot Shoe” Adapter for mounting to a Manfrotto Magic Arm or similar mounting system
 
-(c)    Two 3.5 mm jack plug sockets for attaching external switches to trigger additional functions (“Button 2 / B2” and “Button 3 / B3”)
+(f)    Firmware upgrade via FlipPad web application on [FlipPad.asterics.eu](FlipPad.asterics.eu)
 
-(d)    3 Indicator Light Emitting Diodes (LEDs) for showing the active configuration, calibration procedure etc.
-
-(e)    Universal infrared remote control receiver and transmitter
-
-(f)    “Hot Shoe” Adapter for mounting to a Manfrotto Magic Arm or similar mounting system
-
-(g)    Firmware upgrade via FlipPad web application on [FlipPad.asterics.eu](FlipPad.asterics.eu)
-
-(h)    Optional add-on board for Bluetooth (e.g. to control smartphones or iOS devices)
+(g)    Optional add-on board for Bluetooth (e.g. to control smartphones or iOS devices)
 
 
 
@@ -117,44 +108,31 @@ The optional Bluetooth Add-On module allows connection of the FlipPad as a Bluet
 
 
 
-!!! Neue Fotos mit Saugstick
+
 
 # Instructions for proper mounting and use
 
-**1. Attach the "hygienic stick**
 
-![hygienic stick](./Bilder/f7.png)
-
-*Figure 6*: Attaching the hygienic stick
-
-Use a clean “hygienic stick” and attach it to the front connector, turn clockwise (not too hard):
-
-**2. Mount the FlipPad device appropriately for the user**
-![hygienic stick](./Bilder/f8.png)
+**1. Mount the FlipPad device appropriately for the user**
+<p align="left" width="100%">
+    <img width="40%" src="./Bilder/fp.jpg">
+</p>
 
 *Figure 7*: Mounting the FlipPad
 
 The picture shows a “[Manfrotto Gelenkarm](https://www.manfrotto.com/global/single-arm-2-section-196ab-2/)” + ”[SuperClamp](https://www.manfrotto.com/global/super-photo-clamp-without-stud-aluminium-035/)” mount combination. You could also use the [Manfrotto Magic Arm](https://www.manfrotto.com/global/magic-photo-arm-smart-centre-lever-and-flexible-extension-143n/) or any other kind of mounting solution which fits to the HotShoe-Adapter of the FlipPad. Be careful when attaching the mount to the 3/8” screw of the HotShoe-Adapter: hard forces might break the enclosure of the device. 
 
-![Lips](./Bilder/f9.png)
+<p align="left" width="100%">
+    <img width="40%" src="./Bilder/fp9.jpg">
+</p>
 
-*Figure 8*: Using the FlipPad with Mouth/Lips
 
-Ensure that the head of the user rests comfortably. The mouthpiece should gently touch the lips. It is not useful to insert the mouthpiece into the mouth! This could result in uncomfortable feelings and make it harder to control the lateral movement.
-
-![Fingers](./Bilder/fp9.jpg)
 
 *Figure 9*: Using the FlipPad with fingers
 
 If the user desires to actuate the FlipPad with a finger or the thumb the system appropriately so that the hand is in a resting position and the finger can touch the joystick without stress. Attach one or two additional external switches if desired, and mount the switches at suitable locations.
 
-![ball-switch](./Bilder/f11.png)
-
-*Figure 10*: Using the FlipPad as a ball-switch interface
-
-If a soft ball interaction method is desired, a plastic tube can be attached to the front connector of the FlipPad using a *Luer Lock* adapter. This plastic tube can be connected to a soft ball (the picture above shows a cheap “dog toy” from a pet store). This solution could be used as a soft head-switch / pillow-switch or shoulder-switch and can be combined with other external switches. 
-
-**3. Attaching the FlipPad to a Computer, Tablet or Smart Phone**
+**2. Attaching the FlipPad to a Computer, Tablet or Smart Phone**
 
 When connecting the FlipPad via the provided USB-micro cable, do not touch the mouthpiece as long as the LEDs are blinking (the initial blinking indicates the zero point calibration phase). Wait until the device is recognized by the computer, then move the joystick / mouthpiece to check correct operation.
 
@@ -165,10 +143,13 @@ When connecting the FlipPad via the provided USB-micro cable, do not touch the m
 **Please note** that every time you apply power to the FlipPad device (respectively when you plug it in) the **zero-calibration is performed which is indicated by blinking all 3 LEDs**. It is important that you do not touch the joystick / mouthpiece until the LEDs stopped blinking. 
 
 #### Using the FlipPad with Smart Phones or Tablets that provide USB-OTG
-//neue Fotos 
+
 The FlipPad should work with any operating system which supports USB HID (Mouse/Keyboard/Joystick) devices, such as Windows, Linux or MacOS. Several Android devices provide an USB port with USB-OTG (“on-the-go”) functionality. If your device supports “OTG” you can attach the FlipPad using an USB-OTG-adapter (see picture below) and it should work as a normal mouse (you will get a mouse cursor) or keyboard. You can test if your Android phone or tablet features the USB-OTG function with the “OTG checker” app.
 
-![smartphone](./Bilder/fp-tab.jpg)
+<p align="left" width="100%">
+    <img width="40%" src="./Bilder/fp-tab.jpg">
+</p>
+
 
 *Figure 12*: Using the FlipPad with the Smart Phone
 
@@ -259,25 +240,6 @@ Turning the maximum speed setting to a low level is useful if a user desires to 
 
 This setting is enabled by clicking *"Show advanced options"*. The acceleration setting allows influencing the acceleration behavior of the mouse cursor: if acceleration is set to a low level, even a strong deflection of the stick will start a slow (but progressing) cursor movement which makes it easier to reach small targets precisely.
 
-#### Drift compensation range + Drift compensation gain
-//!! Gibts nicht bei dem FilpPad
-These settings are enabled by clicking *“Show advanced options”*.
-Due to mechanical reasons, the force sensors of the FlipPad show small inaccuracies which can result in mouse cursor drifting. This effect is critical if using very small deadzone settings (very sensitive mouse control): if you move the mouthpiece/joystick to one direction and then release it, the mouse cursor continues to slightly “drift” in this direction because the sensor values do not settle at the calibrated middle position. Since Version 2.9, the FlipPad offers a “drift compensation” feature, where the software tries to calculate the expected drift caused by the last interaction and corrects the bias, so that the performance is improved especially for small deadzone settings. 
-
-The “drift compensation gain” value represents the level of correction, whereas the “compensation range” value represents the amount of force which is taken into account for the calculation. 
-Each of these values has a corresponding slider. It is also possible to set different values for the x-axis und the y-axis after clicking “*show x/y separately*” (see the following figure).
-
-<p align="left" width="100%">
-    <img width="100%" src="./Bilder/fig4.1.svg">
-</p>
-
-*Figure 17: FlipPad Configuration Manager: Tab PAD-CONFIG, separate x/y*
-
-The best values for a particular FlipPad can be determined by experimentation.
-For example: 
-
-1. Push the mouthpiece upwards and release it. If the mouse cursor continues to drift upwards, try to increase the vertical compensation value
-2. Push the mouthpiece to the left and release it. If the mouse cursor drifts to the right, try to decrease the horizontal compensation value. 
 
 ### Using the Pad for Joystick Movement
 
@@ -507,7 +469,7 @@ Here you can see the installed version and the available version of the Bluetoot
 
 The FlipPad stick is attached to four force sensors – one for each movement direction (up, down, left, right). The numeric value of each of those sensors is displayed in the “VISUALIZATION” tab. The live values can be monitored when the FlipPad device is connected. Whenever the stick is moved, the sensor values change. Specifically, a movement in each direction increases the respective sensor value. The sensor values also depend on the use of the adjustment screws which change the force which is applied to the sensor pads via 4 metal springs. Therefore, when assembling the FlipPad, the live sensor values should be used as guidance. **When not touching the stick, the values should look similar to screenshot below. All values should decrease and raise similarly when moving the stick. Significant deviation in one direction indicates a sensor problem. The sensors should be checked and might need to be replaced.**
 
-![visualisation](./Bilder/fpk13.png)
+![visualisation](./Bilder/fpk13-en.png)
 
 *Figure 28: Left: Live display of force sensor values; Middle: current slot with the 3 buttons (if one button is pressed, the corresponding circle will get yellow; Right: Sip and Puff live value and current thresholds*
 
@@ -559,67 +521,6 @@ The FlipPad can be connected to a host device only if no device is currently con
 Note:  If the Bluetooth module is in paring mode, the module's LED flashed fast (approx twice per second). If a connection is established, the LED flashes slowly (approx. once every 2 seconds). The LED can only be seen if the enclosure of the FlipPad is opened.
 
 
-
-# Mod your Mouthpiece?
-
-Several users reported that they would prefer a different shape of the mouthpiece. It is of course possible to apply your own modifications and extensions which feel comfortable to you. Here we want to give some suggestions using affordable, disposable cigarette holders. The link between the *Hygienic Stick* and the cigarette holder is established with a small brass tube. It is also possible to cut the cigarette holder and insert it into the *Hygienic Stick* so that a tight fit is ensured.
-
-![mouthpiece](./Bilder/fig33.png)
-![mouthpiece1](./Bilder/fig33.1.png)
-
-*Figure 32: Modified shape of the mouthpiece*
-
-Regardless of your desired mouthpiece modifications: Always take care for a hygienic operation and apply the cleaning procedures as described in the following chapter!
-
-
-
-# Instructions for cleaning and maintenance
-
-If the mouthpiece is used to actuate the cursor movements via lip/mouth movements, a careful cleaning procedure is essential to avoid bacteria and health problems! Read this section carefully and apply the needed cleaning procedures whenever necessary.
-
-**Exchanging the saliva filter:**
-The saliva filter is placed inside the *Hygienic Stick*. Usually, no (or nearly no) saliva should enter the stick – but it strongly depends on the person using the mouthpiece and his/her condition. If saliva enters the *Hygienic Stick*, the saliva filters prevents the moisture entering the inner parts of the FlipPad (respectively the pressure sensor). The filter can be replaced as shown below:
-
-<p align="left" width="100%">
-    <img width="50%" src="./Bilder/fig34.1.jpg">
-</p>
-
-*Figure 33.1: Removal of the saliva filter, using a normal screw to grab the filter*
-
-<p align="left" width="100%">
-    <img width="50%" src="./Bilder/fig34.2.jpg">
-</p>
-
-*Figure 33.2: The removed filter*
-
-<p align="left" width="100%">
-    <img width="50%" src="./Bilder/fig34.3.jpg">
-</p>
-
-*Figure 33.3: Inserting a new filter (pushing it back into the hygienic stick)*
-
-**Disinfection of the mouthpiece/hygienic stick:**
-To disinfect a mouthpiece, use boiling water. Place the *Hygienic Stick* (without saliva filter) in boiling water for at least five minutes. Then let the *Hygienic Stick* dry before the next application.
-
-**Ordering replacement sticks and filters:**
-Saliva filters and *Hygienic Sticks* can be directly ordered from the [*Quadjoy* online shop](https://quad.life/product). We would like to thank Bill and Debra Street for letting us use their *Quadjoy Hygienic Stick* together with our FlipPad device – you guys are great!
-
-## Hygienic considerations and risks
-
-If the mouthpiece is actuated with the lips, it is important to respect the following hygienic precautions: 
-
-1. One mouthpiece must be used exclusively by one person
-2. The filter tip must be replaced whenever saliva or dirt have formed
-3. The mouthpiece must be cleaned whenever saliva or dirt have formed
-   (see chapter “[Instructions for cleaning and maintenance](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadUserManual.md#instructions-for-cleaning-and-maintenance)”)
-
-With the lack of hygiene concerning the mouthpiece, especially when the mouthpiece is used by more than one person, it is possible that 
-
-1. skin rash arises
-2. viruses and bacteria are transmitted causing diseases
-3. dirt formats in the mouthpiece, which is dangerous to health
-
-With wrong positioning of the FlipPad there is the risk of feeling uncomfortable after longer periods of use, and it is possible to get muscle cramps or muscle pain due to unusual head positioning – pay attention to a convenient position and schedule pauses if you work for longer time periods!
 
 
 
