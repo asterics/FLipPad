@@ -115,7 +115,7 @@ The optional Bluetooth Add-On module allows connection of the FlipPad as a Bluet
 
 
 **1. Mount the FlipPad device appropriately for the user**
-![hygienic stick](./Bilder/f8.png)
+![hygienic stick](./Bilder/fp.jpg)
 
 *Figure 7*: Mounting the FlipPad
 
