@@ -123,9 +123,11 @@ The optional Bluetooth Add-On module allows connection of the FlipPad as a Bluet
 
 The picture shows a “[Manfrotto Gelenkarm](https://www.manfrotto.com/global/single-arm-2-section-196ab-2/)” + ”[SuperClamp](https://www.manfrotto.com/global/super-photo-clamp-without-stud-aluminium-035/)” mount combination. You could also use the [Manfrotto Magic Arm](https://www.manfrotto.com/global/magic-photo-arm-smart-centre-lever-and-flexible-extension-143n/) or any other kind of mounting solution which fits to the HotShoe-Adapter of the FlipPad. Be careful when attaching the mount to the 3/8” screw of the HotShoe-Adapter: hard forces might break the enclosure of the device. 
 
+<p align="left" width="100%">
+    <img width="40%" src="./Bilder/fp9.jpg">
+</p>
 
 
-![Fingers](./Bilder/fp9.jpg)
 
 *Figure 9*: Using the FlipPad with fingers
 
@@ -145,7 +147,10 @@ When connecting the FlipPad via the provided USB-micro cable, do not touch the m
 //neue Fotos 
 The FlipPad should work with any operating system which supports USB HID (Mouse/Keyboard/Joystick) devices, such as Windows, Linux or MacOS. Several Android devices provide an USB port with USB-OTG (“on-the-go”) functionality. If your device supports “OTG” you can attach the FlipPad using an USB-OTG-adapter (see picture below) and it should work as a normal mouse (you will get a mouse cursor) or keyboard. You can test if your Android phone or tablet features the USB-OTG function with the “OTG checker” app.
 
-![smartphone](./Bilder/fp-tab.jpg)
+<p align="left" width="100%">
+    <img width="40%" src="./Bilder/fp-tab.jpg">
+</p>
+
 
 *Figure 12*: Using the FlipPad with the Smart Phone
 
