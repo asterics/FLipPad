@@ -373,7 +373,7 @@ Hier können Sie die installierte und die verfügbare Version der Firmware des B
 
 Der FlipPad-Stick ist mit vier Kraftsensoren verbunden - einer für jede Bewegungsrichtung (oben, unten, links, rechts). Der numerische Wert jedes dieser Sensoren wird auf der Registerkarte "VISUALISIERUNG" angezeigt. Die aktuellen Werte können überwacht werden, wenn das FlipPad-Gerät angeschlossen ist. Wenn der Stick bewegt wird, ändern sich die Sensorwerte. Insbesondere erhöht eine Bewegung in jede Richtung den jeweiligen Sensorwert. Die Sensorwerte hängen auch von der Verwendung der Einstellschrauben ab, die die Kraft verändern, die über 4 Metallfedern auf die Sensorpads ausgeübt wird. Daher sollten beim Zusammenbau der FlipPad die aktuellen Sensorwerte als Richtwerte verwendet werden. **Wenn der Stick nicht berührt wird, sollten die Werte ähnlich wie auf dem Screenshot unten aussehen. Alle Werte sollten in ähnlicher Weise sinken und steigen, wenn der Stick bewegt wird. Signifikante Abweichungen in eine Richtung deuten auf ein Sensorproblem hin. Die Sensoren sollten überprüft werden und müssen möglicherweise ausgetauscht werden.**
 
-![visualisation](./Bilder/fpk13.png)
+![visualisation](./Bilder/fpk13-de.png)
 
 *Abbildung 28: Links: Live-Anzeige der Kraftsensorwerte; Mitte: aktueller Slot mit den 3 Tasten (wenn eine Taste gedrückt wird, wird der entsprechende Kreis gelb); Rechts: Sip und Puff Live-Wert und aktuelle Schwellenwerte*
 
