@@ -96,7 +96,8 @@ Das optionale Bluetooth-Zusatzmodul ermöglicht den Anschluss des FlipPad als Bl
 # Anweisungen für die ordnungsgemäße Montage und Verwendung
 
 
-**1. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** <p align="left" width="100%"> <img width="40%" src="./Bilder/fp.jpg"> </p>
+**1. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** 
+<p align="left" width="100%"> <img width="40%" src="./Bilder/fp.jpg"> </p>
 
 *Abbildung 7*: Montieren des FlipPad
 
@@ -104,7 +105,7 @@ Das Bild zeigt eine Kombination aus "[Manfrotto Gelenkarm](https://www.manfrotto
 
 
 
-![Fingers](./Bilder/fp9.jpg)
+<p align="left" width="100%"> <img width="40%" src="./Bilder/fp9.jpg"> </p>
 
 *Abbildung 9*: Verwendung der FlipPad mit den Fingern
 
@@ -125,7 +126,7 @@ Wenn Sie das FlipPad über das mitgelieferte USB-Mikrokabel anschließen, berüh
 
 Das FlipPad sollte mit allen Betriebssystemen funktionieren, die USB-HID-Geräte (Maus/Tastatur/Joystick) unterstützen, wie Windows, Linux oder MacOS. Einige Android-Geräte bieten einen USB-Anschluss mit USB-OTG-Funktionalität ("on-the-go"). Wenn Ihr Gerät "OTG" unterstützt, können Sie die FlipPad mit einem USB-OTG-Adapter (siehe Bild unten) anschließen und sie sollte wie eine normale Maus (Sie erhalten einen Mauszeiger) oder Tastatur funktionieren. Sie können mit der App "OTG Checker" testen, ob Ihr Android-Telefon oder Android-Tablet die USB-OTG-Funktion unterstützt.
 
-![smartphone](./Bilder/fp-tab.jpg)
+<p align="left" width="100%"> <img width="40%" src="./Bilder/fp-tab.jpg"> </p>
 
 *Abbildung 12*: Verwendung der FlipPad mit dem Smart Phone
 
@@ -137,7 +138,7 @@ Das Bluetooth - Zusatzmodul für das FlipPad ermöglicht die kabellose Maus-/Tas
 
 Der [FlipPad Konfigurationsmanager](https://flippad.asterics.eu/index_pad.htm) bietet eine grafische Benutzeroberfläche (GUI) zum Ändern und Speichern von Einstellungen des FlipPad-Geräts, sodass alle Merkmale und Funktionen an persönliche Vorlieben und Bedürfnisse angepasst werden können. **Derzeit muss der Google Chrome-Browser (oder ein Chromium-basierter Browser) verwendet werden.** Der Konfigurationsmanager ist über die folgende Website zugänglich: **FlipPad.asterics.eu**. Der FlipPad-Konfigurationsmanager sendet und empfängt Informationen von/zu dem FlipPad. Diese Informationsübertragung erfolgt über einen Kommunikationsanschluss (COM-Anschluss). Die folgende Abbildung zeigt die Einstiegsseite des FlipPad-Konfigurationsmanagers:
 
-<p align="left" width="100%"> <img width="70%" src="./Bilder/fpk1-de.png"> </p>
+<p align="left" width="100%"> <img width="50%" src="./Bilder/fpk1-de.png"> </p>
 
 *Abbildung 13: Willkommensseite des FlipPad-Konfigurationsmanagers*
 
@@ -150,7 +151,7 @@ Gehen Sie folgendermaßen vor, um das Gerät anzuschließen:
 3. Sobald der COM-Port ausgewählt ist, klicken Sie auf die Schaltfläche "Verbinden" am unteren Rand des Auswahlfeldes.
 4. Nach erfolgreicher Verbindung des COM-Ports wird das Hauptfenster (siehe Abbildung 14) angezeigt und Sie sollten ein Live-Feedback der Stick-Bewegung sehen. Der Port-Status in der oberen rechten Ecke des Fensters zeigt "verbunden" an:
 
-   ![ConfigManager](./Bilder/fpk2-de.png)
+  <p align="left" width="100%"> <img width="50%" src="./Bilder/fpk2-de.png"> </p>
 
 *Abbildung 14*: FlipPad Konfigurationsmanager
 
@@ -257,7 +258,7 @@ Das Tab AKTIONEN ermöglicht die Zuordnung von Benutzeraktivitäten zu gewünsch
 
 Die Aktionen können durch Anklicken des Eintrags in der Aktionskonfigurationstabelle geändert werden (siehe das blaue Feld in Abbildung 21). Die Tabelle zeigt die Aktionen für alle Benutzeraktivitäten an, entweder nur für den gerade aktiven Slot oder für alle Slots (was einen Überblick über alle Aktionen gibt). Wenn Sie auf eine bestimmte Aktion klicken, öffnet sich ein Fenster, in dem Sie die Aktionskategorie (in Abbildung 22 für Button 1: Gerät) und die Aktion selbst (hier: Nächsten Slot laden) ändern können, siehe Abbildung 22.
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk7-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk7-de.png"> </p>
 
 *Abbildung 21: Benutzeraktivitäten verschiedene Aktionen zuordnen*
 
