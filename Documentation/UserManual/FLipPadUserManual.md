@@ -469,7 +469,7 @@ Here you can see the installed version and the available version of the Bluetoot
 
 The FlipPad stick is attached to four force sensors – one for each movement direction (up, down, left, right). The numeric value of each of those sensors is displayed in the “VISUALIZATION” tab. The live values can be monitored when the FlipPad device is connected. Whenever the stick is moved, the sensor values change. Specifically, a movement in each direction increases the respective sensor value. The sensor values also depend on the use of the adjustment screws which change the force which is applied to the sensor pads via 4 metal springs. Therefore, when assembling the FlipPad, the live sensor values should be used as guidance. **When not touching the stick, the values should look similar to screenshot below. All values should decrease and raise similarly when moving the stick. Significant deviation in one direction indicates a sensor problem. The sensors should be checked and might need to be replaced.**
 
-![visualisation](./Bilder/fpk13.png)
+![visualisation](./Bilder/fpk13-en.png)
 
 *Figure 28: Left: Live display of force sensor values; Middle: current slot with the 3 buttons (if one button is pressed, the corresponding circle will get yellow; Right: Sip and Puff live value and current thresholds*
 
@@ -521,67 +521,6 @@ The FlipPad can be connected to a host device only if no device is currently con
 Note:  If the Bluetooth module is in paring mode, the module's LED flashed fast (approx twice per second). If a connection is established, the LED flashes slowly (approx. once every 2 seconds). The LED can only be seen if the enclosure of the FlipPad is opened.
 
 
-
-# Mod your Mouthpiece?
-
-Several users reported that they would prefer a different shape of the mouthpiece. It is of course possible to apply your own modifications and extensions which feel comfortable to you. Here we want to give some suggestions using affordable, disposable cigarette holders. The link between the *Hygienic Stick* and the cigarette holder is established with a small brass tube. It is also possible to cut the cigarette holder and insert it into the *Hygienic Stick* so that a tight fit is ensured.
-
-![mouthpiece](./Bilder/fig33.png)
-![mouthpiece1](./Bilder/fig33.1.png)
-
-*Figure 32: Modified shape of the mouthpiece*
-
-Regardless of your desired mouthpiece modifications: Always take care for a hygienic operation and apply the cleaning procedures as described in the following chapter!
-
-
-
-# Instructions for cleaning and maintenance
-
-If the mouthpiece is used to actuate the cursor movements via lip/mouth movements, a careful cleaning procedure is essential to avoid bacteria and health problems! Read this section carefully and apply the needed cleaning procedures whenever necessary.
-
-**Exchanging the saliva filter:**
-The saliva filter is placed inside the *Hygienic Stick*. Usually, no (or nearly no) saliva should enter the stick – but it strongly depends on the person using the mouthpiece and his/her condition. If saliva enters the *Hygienic Stick*, the saliva filters prevents the moisture entering the inner parts of the FlipPad (respectively the pressure sensor). The filter can be replaced as shown below:
-
-<p align="left" width="100%">
-    <img width="50%" src="./Bilder/fig34.1.jpg">
-</p>
-
-*Figure 33.1: Removal of the saliva filter, using a normal screw to grab the filter*
-
-<p align="left" width="100%">
-    <img width="50%" src="./Bilder/fig34.2.jpg">
-</p>
-
-*Figure 33.2: The removed filter*
-
-<p align="left" width="100%">
-    <img width="50%" src="./Bilder/fig34.3.jpg">
-</p>
-
-*Figure 33.3: Inserting a new filter (pushing it back into the hygienic stick)*
-
-**Disinfection of the mouthpiece/hygienic stick:**
-To disinfect a mouthpiece, use boiling water. Place the *Hygienic Stick* (without saliva filter) in boiling water for at least five minutes. Then let the *Hygienic Stick* dry before the next application.
-
-**Ordering replacement sticks and filters:**
-Saliva filters and *Hygienic Sticks* can be directly ordered from the [*Quadjoy* online shop](https://quad.life/product). We would like to thank Bill and Debra Street for letting us use their *Quadjoy Hygienic Stick* together with our FlipPad device – you guys are great!
-
-## Hygienic considerations and risks
-
-If the mouthpiece is actuated with the lips, it is important to respect the following hygienic precautions: 
-
-1. One mouthpiece must be used exclusively by one person
-2. The filter tip must be replaced whenever saliva or dirt have formed
-3. The mouthpiece must be cleaned whenever saliva or dirt have formed
-   (see chapter “[Instructions for cleaning and maintenance](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadUserManual.md#instructions-for-cleaning-and-maintenance)”)
-
-With the lack of hygiene concerning the mouthpiece, especially when the mouthpiece is used by more than one person, it is possible that 
-
-1. skin rash arises
-2. viruses and bacteria are transmitted causing diseases
-3. dirt formats in the mouthpiece, which is dangerous to health
-
-With wrong positioning of the FlipPad there is the risk of feeling uncomfortable after longer periods of use, and it is possible to get muscle cramps or muscle pain due to unusual head positioning – pay attention to a convenient position and schedule pauses if you work for longer time periods!
 
 
 
