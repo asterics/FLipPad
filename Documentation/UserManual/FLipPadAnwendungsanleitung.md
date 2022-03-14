@@ -31,7 +31,7 @@ Die AsTeRICS Foundation
 # Hardware Übersicht
 
 Das FlipPad ist mit einem 3d-gedruckten Gehäuse erhältlich. Designdateien für das 3d-gedruckte Gehäuse werden im [Github-Repository](https://github.com/asterics/FLipPad/tree/main/Hardware/case-design/smallTrackpad_TM035035) bereitgestellt. In weiterer Folge wird eine FlipPad mit einem größeren Touchbett entwickelt. 
-(neues Bild mit Steuerung von FlipPad)
+
 <p align="left" width="100%"> <img width="60%" src="./Bilder/fp5-neu.jpg"> </p>
 
 *Abbildung 1*: Verwendung des FlipPad für die Computersteuerung durch Fingerinteraktion
@@ -109,10 +109,10 @@ Das Bild zeigt eine Kombination aus "[Manfrotto Gelenkarm](https://www.manfrotto
 
 *Abbildung 9*: Verwendung der FlipPad mit den Fingern
 
-Wenn der Benutzer / die Benutzerin die FlipPad mit einem Finger oder dem Daumen betätigen möchte, montieren Sie das System so, dass sich die Hand in einer Ruheposition befindet und der Finger den Joystick ohne Belastung berühren kann. Bringen Sie einen oder zwei zusätzliche externe Schalter an, falls gewünscht, und montieren Sie die Schalter an geeigneten Stellen (z. B. an den Beinen/Zehen/Schultern usw.).
+Wenn der Benutzer / die Benutzerin das FlipPad mit einem Finger oder dem Daumen betätigen möchte, montieren Sie das System so, dass sich die Hand in einer Ruheposition befindet und der Finger den Joystick ohne Belastung berühren kann. Bringen Sie einen oder zwei zusätzliche externe Schalter an, falls gewünscht, und montieren Sie die Schalter an geeigneten Stellen (z. B. an den Beinen/Zehen/Schultern usw.).
 
 
-**2. Anschließen der FlipPad an einen Computer, ein Tablet oder ein Smart Phone**
+**2. Anschließen des FlipPad an einen Computer, ein Tablet oder ein Smart Phone**
 
 Wenn Sie das FlipPad über das mitgelieferte USB-Mikrokabel anschließen, berühren Sie das Touchpad nicht, solange die LEDs blinken (das anfängliche Blinken zeigt die Phase der Nullpunktkalibrierung an). Warten Sie, bis das Gerät vom Computer erkannt wird, und bewegen Sie dann den Joystick/das Touchpad, um den korrekten Betrieb zu überprüfen.
 
@@ -124,13 +124,13 @@ Wenn Sie das FlipPad über das mitgelieferte USB-Mikrokabel anschließen, berüh
 
 #### Verwendung der FlipPad mit Smart Phones oder Tablets
 
-Das FlipPad sollte mit allen Betriebssystemen funktionieren, die USB-HID-Geräte (Maus/Tastatur/Joystick) unterstützen, wie Windows, Linux oder MacOS. Einige Android-Geräte bieten einen USB-Anschluss mit USB-OTG-Funktionalität ("on-the-go"). Wenn Ihr Gerät "OTG" unterstützt, können Sie die FlipPad mit einem USB-OTG-Adapter (siehe Bild unten) anschließen und sie sollte wie eine normale Maus (Sie erhalten einen Mauszeiger) oder Tastatur funktionieren. Sie können mit der App "OTG Checker" testen, ob Ihr Android-Telefon oder Android-Tablet die USB-OTG-Funktion unterstützt.
+Das FlipPad sollte mit allen Betriebssystemen funktionieren, die USB-HID-Geräte (Maus/Tastatur/Joystick) unterstützen, wie Windows, Linux oder MacOS. Einige Android-Geräte bieten einen USB-Anschluss mit USB-OTG-Funktionalität ("on-the-go"). Wenn Ihr Gerät "OTG" unterstützt, können Sie das FlipPad mit einem USB-OTG-Adapter (siehe Bild unten) anschließen und sie sollte wie eine normale Maus (Sie erhalten einen Mauszeiger) oder Tastatur funktionieren. Sie können mit der App "OTG Checker" testen, ob Ihr Android-Telefon oder Android-Tablet die USB-OTG-Funktion unterstützt.
 
 <p align="left" width="100%"> <img width="40%" src="./Bilder/fp-tab.jpg"> </p>
 
-*Abbildung 12*: Verwendung der FlipPad mit dem Smart Phone
+*Abbildung 12*: Verwendung desFlipPad mit dem Smart Phone
 
-#### Verwendung der FlipPad über Bluetooth
+#### Verwendung des FlipPad über Bluetooth
 
 Das Bluetooth - Zusatzmodul für das FlipPad ermöglicht die kabellose Maus-/Tastatursteuerung von Computern, Tablets und Smartphones. Darüber hinaus können iPhones oder iPads über VoiceOver & Assistive-Switch-Unterstützung genutzt werden. Weitere Informationen finden Sie im Kapitel *[Verwendung des Bluetooth-Moduls](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#verwendung-des-bluetooth-moduls)*.
 
@@ -167,7 +167,7 @@ Im Tab PAD-CONFIG des FlipPad-Konfigurationsmanagers können Sie die *Geschwindi
 
 #### Pad-Verwendung definieren (“Verwende Touchpad für”)
 
-Im Tab PAD-CONFIG ganz oben kann die Hauptfunktion des Pads ausgewählt werden. Standardmäßig erzeugt die Pad Mausbewegungen. Das Pad kann jedoch auch für alternative Aktionen verwendet werden (z. B. Drücken der Taste 'A', wenn das Pad nach oben gedrückt wird), die im Tab ACTIONS festgelegt werden können (siehe Abschnitt //! gibts noch nicht in GIT*[Zuweisung von verschiedenen Aktionen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#zuweisung-von-verschiedenen-aktionen-tab-aktionen)*. Außerdem kann der StickMode einen echten Joystick oder ein Gamepad nachahmen (siehe Abschnitt *[Verwendung des Sticks für Joystick-Bewegungen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#verwenden-des-sticks-f%C3%BCr-joystick-bewegungen)*.
+Im Tab PAD-CONFIG ganz oben kann die Hauptfunktion des Pads ausgewählt werden. Standardmäßig erzeugt die Pad Mausbewegungen. Das Pad kann jedoch auch für alternative Aktionen verwendet werden (z. B. Drücken der Taste 'A', wenn das Pad nach oben gedrückt wird), die im Tab ACTIONS festgelegt werden können (siehe Abschnitt *[Zuweisung von verschiedenen Aktionen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#zuweisung-von-verschiedenen-aktionen-tab-aktionen)*. Außerdem kann der StickMode einen echten Joystick oder ein Gamepad nachahmen (siehe Abschnitt *[Verwendung des Sticks für Joystick-Bewegungen](https://github.com/asterics/FlipPad/blob/master/Documentation/UserManual/Markdown/FlipPadAnwendungsanleitung.md#verwenden-des-sticks-f%C3%BCr-joystick-bewegungen)*.
 
 
 
@@ -204,17 +204,6 @@ Die Einstellung der maximalen Geschwindigkeit auf ein niedriges Niveau ist nütz
 #### Trackpad-Sensitivität
 
 Diese Einstellung wird durch Klicken auf *"Zeige erweiterte Einstellungen"* aktiviert. Die Trackpad-Sensitivität erlaubt es, das Beschleunigungsverhalten des Mauszeigers zu beeinflussen: Wenn die Trackpad-Sensitivität auf einen niedrigen Wert eingestellt ist, wird selbst eine starke Auslenkung des Pads eine langsame (aber fortschreitende) Bewegung des Mauszeigers auslösen, was es einfacher macht, kleine Ziele präzise zu erreichen.
-!!Gibts beim Pad nicht 
-#### Drift compensation range + Drift compensation gain
-
-Diese Einstellungen werden durch Klicken auf *"Zeige erweiterte Einstellungen"* aktiviert. Aus mechanischen Gründen weisen die Kraftsensoren des FlipPads kleine Ungenauigkeiten auf, die zu einem Abdriften des Mauszeigers führen können. Kritisch ist dieser Effekt bei sehr kleinen Deadzone-Einstellungen (sehr feinfühlige Maussteuerung): Wenn Sie das Touchpad/den Joystick in eine Richtung bewegen und dann loslassen, "driftet" der Mauszeiger weiterhin leicht in diese Richtung, da sich die Sensorwerte nicht an der kalibrierten Mittelposition einpendeln. 
-
-Der Wert "Drift compensation gain" steht für den Grad der Korrektur, während der Wert "Drift compensation range" für den Betrag der Kraft steht, die bei der Berechnung berücksichtigt wird. Jeder dieser Werte hat einen entsprechenden Schieberegler. 
-
-Die besten Werte für eine bestimmte FlipPad können durch Experimentieren ermittelt werden. Zum Beispiel:
-
-1. Wischen Sie das Touchpad nach oben und lassen Sie es los. Wenn der Mauszeiger weiterhin nach oben driftet, versuchen Sie, den Wert für den vertikalen Ausgleich zu erhöhen.
-2. Wischen Sie das Touchpad nach links und lassen Sie es los. Wenn der Mauszeiger nach rechts driftet, versuchen Sie, den horizontalen Ausgleichswert zu verringern.
 
 ### Verwenden des Pads für Joystick-Bewegungen
 
