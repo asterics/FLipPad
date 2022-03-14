@@ -79,7 +79,7 @@ Auf der linken Seite des FlipPad befindet sich eine Taste (B1), die eine konfigu
 
 
 <p align="left" width="100%">
-    <img width="60%" src="./Bilder/fp5-neu.jpg">
+    <img width="60%" src="./Bilder/3Dfp.jpg">
 </p>
 *Abbildung 4*: FlipPad 3D-gedrucktes Gehäuse 
 
