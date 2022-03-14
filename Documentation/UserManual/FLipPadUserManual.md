@@ -121,11 +121,7 @@ The optional Bluetooth Add-On module allows connection of the FlipPad as a Bluet
 
 The picture shows a “[Manfrotto Gelenkarm](https://www.manfrotto.com/global/single-arm-2-section-196ab-2/)” + ”[SuperClamp](https://www.manfrotto.com/global/super-photo-clamp-without-stud-aluminium-035/)” mount combination. You could also use the [Manfrotto Magic Arm](https://www.manfrotto.com/global/magic-photo-arm-smart-centre-lever-and-flexible-extension-143n/) or any other kind of mounting solution which fits to the HotShoe-Adapter of the FlipPad. Be careful when attaching the mount to the 3/8” screw of the HotShoe-Adapter: hard forces might break the enclosure of the device. 
 
-![Lips](./Bilder/f9.png)
 
-*Figure 8*: Using the FlipPad with Mouth/Lips
-
-Ensure that the head of the user rests comfortably. The mouthpiece should gently touch the lips. It is not useful to insert the mouthpiece into the mouth! This could result in uncomfortable feelings and make it harder to control the lateral movement.
 
 ![Fingers](./Bilder/fp9.jpg)
 
