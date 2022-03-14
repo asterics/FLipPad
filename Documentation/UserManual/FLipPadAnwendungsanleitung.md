@@ -96,7 +96,7 @@ Das optionale Bluetooth-Zusatzmodul ermöglicht den Anschluss des FlipPad als Bl
 # Anweisungen für die ordnungsgemäße Montage und Verwendung
 
 
-**1. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** ![hygienic stick](./Bilder/f8.png)
+**1. Montieren des FlipPad-Geräts in einer für den Benutzer / die Benutzerin geeigneten Weise** ![hygienic stick](./Bilder/fp.jpg)
 
 *Abbildung 7*: Montieren des FlipPad
 
