@@ -33,7 +33,7 @@
 #include "bluetooth.h"
 #include "hid_hal.h"
 
-#define VERSION_STRING "v2.12"
+#define VERSION_STRING "v1.0"
 
 //  V1.0: first FlipPad firmware with support for cirque trackpads
 
