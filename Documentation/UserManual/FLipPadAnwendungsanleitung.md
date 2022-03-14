@@ -77,7 +77,7 @@ Auf der linken Seite des FlipPad befindet sich eine Taste (B1), die eine konfigu
 
 ## 3D-gedrucktes Gehäuse
 
-<p align="left" width="100%" > <img width="55%" src=".Bilder/fp5-neu.jpg"> </p>
+<p align="left" width="100%" > <img width="55%" src=".Bilder/fp5-neu.JPG"> </p>
 *Abbildung 4*: FlipPad 3D-gedrucktes Gehäuse 
 
 Es sind verschiedene Alternativen für das FlipPad-Gehäuse verfügbar, z.B. eine Acrylversion. Die empfohlene Version ist das 3D-gedruckte Gehäuse, das auch in der Bauanleitung dokumentiert ist. Die 3D-Designdateien können vom [Github Repository](https://github.com/asterics/FLipPad/tree/main/Hardware) heruntergeladen werden. 
