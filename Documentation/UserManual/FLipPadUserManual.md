@@ -34,7 +34,7 @@ The AsTeRICS Foundation
 # Hardware overview
 
 The FlipPad is available with a 3d-printed enclosure. Design files for the 3d-printed case are provided in the [Github repository]!!Link gibt es noch nicht!!(https://github.com/asterics/FlipPad/tree/master/Hardware/case-design/3D_printer). The primary method for interacting with the FlipPad is the transparent stick (“Hygienic Stick” or “mouthpiece”) which is attached to the front of the FlipPad. The *Hygienic Stick* is made by the company *QuadJoy*.  Replacement sticks can be ordered via the homepage: [www.quadjoy.com](https://quad.life/). We want to thank Bill and Debra Street of *QuadJoy* for letting us use their mouthpiece for our FlipPad construction kit! (Please note the cleaning instructions in the dedicated section of this manual.)
-!!Neues Bild 
+
 <p align="left" width="100%">
     <img width="60%" src="./Bilder/3Dfp-neu.jpg">
 </p>
@@ -240,12 +240,6 @@ Turning the maximum speed setting to a low level is useful if a user desires to 
 
 This setting is enabled by clicking *"Show advanced options"*. The acceleration setting allows influencing the acceleration behavior of the mouse cursor: if acceleration is set to a low level, even a strong deflection of the stick will start a slow (but progressing) cursor movement which makes it easier to reach small targets precisely.
 
-
-The best values for a particular FlipPad can be determined by experimentation.
-For example: 
-
-1. Push the mouthpiece upwards and release it. If the mouse cursor continues to drift upwards, try to increase the vertical compensation value
-2. Push the mouthpiece to the left and release it. If the mouse cursor drifts to the right, try to decrease the horizontal compensation value. 
 
 ### Using the Pad for Joystick Movement
 
