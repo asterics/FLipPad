@@ -175,7 +175,7 @@ Im Tab PAD-CONFIG ganz oben kann die Hauptfunktion des Pads ausgewählt werden. 
 
 Das FlipPad wird mit einer HotShoe 3/8"-Montageschraube befestigt, die sich an der Unterseite des FlipPad-Gehäuses befindet. Die Ausrichtung kann je nach den Vorlieben des Benutzers geändert werden. Ist die FlipPad z.B. verkehrt herum montiert, kann die Pad-Ausrichtung entsprechend gewählt werden, so dass die Auf/Ab/Links/Rechts-Bewegungen weiterhin korrekt interpretiert werden. Ein Klick auf "NACH RECHTS DREHEN" ändert die Ausrichtung um 90°. Es sind Ausrichtungseinstellungen für 0 / 90 / 180 und 270 Grad möglich, so dass jede Einbaulage möglich ist.
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk3-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk3-de.png"> </p>
 
 *Abbildung 15: FlipPad Konfigurationsmanager: Tab PAD-CONFIG, Bildlaufleisten*
 
@@ -193,7 +193,7 @@ Die *Deadzone*-Einstellung definiert einen passiven Bereich für die Padbewegung
 
 Falls gewünscht, können die Sensitivitäts- und Deadzonewerte für horizontale oder vertikale Bewegungen individuell geändert werden. Wählen Sie dazu die Option "*zeige x/y getrennt*", wie unten gezeigt:
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk4-de.png"> </p> *Abbildung 16: FlipPad Konfigurationsmanager: Tab PAD-CONFIG, zeige x/y getrennt*
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk4-de.png"> </p> *Abbildung 16: FlipPad Konfigurationsmanager: Tab PAD-CONFIG, zeige x/y getrennt*
 
 #### Maximale Geschwindigkeit
 
@@ -238,7 +238,7 @@ Gewünschte Joystick-Tasten-Aktivitäten können mit Saug/Puste- oder anderen In
 
 Wenn der FlipPad-Stick mit dem Mund verwendet wird, kann der Benutzer Aktionen auslösen, indem er am Mundstück saugt oder pustet. Der Schlauch ist mit einem Drucksensor verbunden, der einen Wert ausgibt, der dem festgestellten Druck entspricht. Wenn der Benutzer saugt, sinkt der Sensorwert, und wenn er pustet, steigt der Wert. Über die Registerkarte "AKTIONEN" können Sie Aktionen für das Saugen oder Pusten zuweisen, wie im nächsten Abschnitt erläutert wird. Die Schwellenwerte für Saugen und Pusten können Sie auf im Tab "SAUG-PUSTE-STEUERUNG"" nach Belieben einstellen. Wenn die FlipPad angeschlossen ist, können Sie in dieser Registerkarte auch die aktuellen Druckwerte und die Auslösung von Saug- und Puste-Aktionen überwachen:
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk6-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk6-de.png"> </p>
 
 *Figure 20:* Tab SAUG-PUSTE-STEUERUNG
 
@@ -350,7 +350,7 @@ Die nächste Abbildung (Abbildung 25) zeigt eine ähnliche Liste, aber die leuch
 
 Im Tab SLOTS können Sie neue Konfigurations-Speicherplätze (Slots) erstellen, vorhandene Slots löschen, einen einzelnen oder alle Slots herunterladen und eine Datei hochladen, die eine vollständige Konfiguration mit mehreren Slots enthält. Nach dem Start des FlipPad-Konfigurationsmanagers ist nur ein Standard-Slot namens "mouse" vorhanden. Wenn Sie mit der Schaltfläche "SLOT ANLEGEN" einen Slot erstellen, wird **der aktuelle Slot kopiert und an den letzten vorhandenen Slot angehängt**. Bevor Sie den neuen Slot erstellen, vergeben Sie im entsprechenden Feld ("Name für neuen Slot eingeben") einen Namen, der Ihnen hilft, sich an den Zweck des Slots zu erinnern:
 
-<p align="left" width="100%"> <img width="100%" src="./Bilder/fpk11-de.png"> </p>
+<p align="left" width="100%"> <img width="80%" src="./Bilder/fpk11-de.png"> </p>
 
 *Abbildung 26: FlipPad Konfigurationsmanager: Tab SLOTS*
 
