@@ -407,7 +407,7 @@ Das optionale Bluetooth-Zusatzmodul ermöglicht den Anschluss und die Steuerung 
 Das Bluetooth-Modul wird auf den internen 10-poligen Anschluss der FlipPad gesteckt. Öffnen Sie dazu das FlipPad-Gehäuse und schieben Sie das Modul so weit wie möglich auf die Stiftleiste:
 
 <p align="left" width="100%"> <img width="40%" src="./Bilder/fig31.jpg"> </p>
-
+Wird morgen gemacht!!
 *Abbildung 31: Bluetooth-Modul*
 
 #### Verbinden mit einem Bluetooth-Host-Gerät (Pairing)
