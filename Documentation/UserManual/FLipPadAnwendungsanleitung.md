@@ -381,7 +381,7 @@ Der FlipPad-Stick ist mit vier Kraftsensoren verbunden - einer für jede Bewegun
 
 Die FlipPad verfügt über ein Infrarot-Fernbedienungs-Empfängermodul und eine Hochstrom-IR-LED, sodass sie Fernbedienungscodes vieler in der Unterhaltungselektronik verwendeter Fernbedienungsgeräte aufzeichnen und wiedergeben kann. Wenn Sie diese Funktion der FlipPad nutzen möchten, achten Sie darauf, dass die IR-Sende-LED auf das zu steuernde Gerät gerichtet ist. Eine Anleitung zum Anschluss einer externen IR-LED zur Erhöhung der Sendeleistung finden Sie auf den [FlipPad Wiki-Seiten](https://github.com/asterics/FlipPad/wiki).
 
-![infrared](./Bilder/fig30.png)
+![infrared](./Bilder/fp-in.png)
 
 *Abbildung 29: Infrarot-Code-Aufzeichnung*
 
@@ -406,7 +406,7 @@ Das optionale Bluetooth-Zusatzmodul ermöglicht den Anschluss und die Steuerung 
 
 Das Bluetooth-Modul wird auf den internen 10-poligen Anschluss der FlipPad gesteckt. Öffnen Sie dazu das FlipPad-Gehäuse und schieben Sie das Modul so weit wie möglich auf die Stiftleiste:
 
-<p align="left" width="100%"> <img width="40%" src="./Bilder/fig31.jpg"> </p>
+<p align="left" width="100%"> <img width="40%" src="./Bilder/fp-bl.jpg"> </p>
 Wird morgen gemacht!!
 *Abbildung 31: Bluetooth-Modul*
 
