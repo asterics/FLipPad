@@ -33,7 +33,9 @@
 #include "bluetooth.h"
 #include "hid_hal.h"
 
-#define VERSION_STRING "v1.0"
+#define VERSION_STRING "v1.1"
+
+//  V1.1: changed orientation of Oled Display for shorter trackpad cable length
 
 //  V1.0: first FlipPad firmware with support for cirque trackpads
 

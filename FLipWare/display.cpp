@@ -62,7 +62,7 @@ uint8_t displayInit (uint8_t useWire1) {
 */
 void displayClear(void) {
   oled->clear();
-  if (slotSettings.ro>90)
+  if (slotSettings.ro<=90)
     oled->displayRemap(true);
   else oled->displayRemap(false);
   oled->setInvertMode(false);
