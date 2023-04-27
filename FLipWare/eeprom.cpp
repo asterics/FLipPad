@@ -422,6 +422,7 @@ uint8_t readFromEEPROM(char * slotname)
   //call the method which loads the data
   if (nr >= 0) readFromEEPROMSlotNumber(nr, true);
   else readFromEEPROMSlotNumber(0, true);
+  return(1);
 }
 
 /**
