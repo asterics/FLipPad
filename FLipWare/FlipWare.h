@@ -117,7 +117,8 @@ struct SensorData {
   uint8_t calib_now;
   int16_t  cx, cy;
   int xDriftComp, yDriftComp;
-  int xLocalMax, yLocalMax;  
+  int xLocalMax, yLocalMax;
+  uint8_t ignorePressure;
 };
 
 /**
