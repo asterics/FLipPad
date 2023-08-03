@@ -83,7 +83,8 @@ struct SensorData sensorData {
   .calib_now=1,    // calibrate zeropoint right at startup !
   .cx=0, .cy=0,
   .xDriftComp=0, .yDriftComp=0,
-  .xLocalMax=0, .yLocalMax=0
+  .xLocalMax=0, .yLocalMax=0,
+  .ignorePressure = 0
 };
 
 
@@ -121,6 +122,12 @@ void setup() {
   initButtons();
   initDebouncers();
   init_CIM_frame();  // for AsTeRICS CIM protocol compatibility
+  
+  pinMode(PRESSURE_SENSOR_PIN,INPUT_PULLUP);
+  if(analogRead(PRESSURE_SENSOR_PIN) > 900)
+  {
+	  sensorData.ignorePressure = 1;
+  }
 
   bootstrapSlotAddresses();   // initialize EEPROM if necessary
   readFromEEPROMSlotNumber(0, true); // read slot from first EEPROM slot if available !
@@ -167,7 +174,8 @@ void loop() {
   }
 
   // get current sensor values
-  sensorData.pressure = analogRead(PRESSURE_SENSOR_PIN);
+  if(!sensorData.ignorePressure) sensorData.pressure = analogRead(PRESSURE_SENSOR_PIN);
+  else sensorData.pressure = 512;
   padState=updateCirquePad(&padX,&padY); 
 
   // perform periodic updates  
