@@ -33,7 +33,11 @@
 #include "bluetooth.h"
 #include "hid_hal.h"
 
-#define VERSION_STRING "v1.1"
+#define VERSION_STRING "v1.2"
+
+//  V1.2: added check for MPRLS pressure sensor
+//        changed back OLed Display orientation for longer cables
+//        reduced maxSpeed
 
 //  V1.1: changed orientation of Oled Display for shorter trackpad cable length
 

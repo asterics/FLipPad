@@ -258,7 +258,7 @@ void acceleratedMouseMove(float accelFactor) {
   float moveValY = sensorData.y * (float)slotSettings.ay * accelFactor;
   
   float actSpeed =  __ieee754_sqrtf (moveValX * moveValX + moveValY * moveValY);
-  float max_speed = (float)slotSettings.ms;
+  float max_speed = (float)slotSettings.ms / 10.0f;
 
   if (actSpeed > max_speed) {
     moveValX *= (max_speed / actSpeed);
