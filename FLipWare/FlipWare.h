@@ -33,7 +33,9 @@
 #include "bluetooth.h"
 #include "hid_hal.h"
 
-#define VERSION_STRING "v1.2"
+#define VERSION_STRING "v1.3"
+
+//  V1.3: fixed memory allocation problem (removed malloc, reduced static memory allocation)
 
 //  V1.2: added check for MPRLS pressure sensor
 //        changed back OLed Display orientation for longer cables
@@ -64,7 +66,7 @@
 #define WORKINGMEM_SIZE         300    // reserved RAM for working memory (command parser, IR-rec/play)
 #define MAX_KEYSTRING_LEN (WORKINGMEM_SIZE-3)   // maximum length for AT command parameters
 #define MAX_NAME_LEN  15               // maximum length for a slotname or ir name
-#define MAX_KEYSTRINGBUFFER_LEN 500    // maximum length for all string parameters of one slot
+#define MAX_KEYSTRINGBUFFER_LEN 250    // maximum length for all string parameters of one slot
 
 // direction identifiers
 #define DIR_E   1   // east

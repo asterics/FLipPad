@@ -302,12 +302,17 @@ const keymap_struct keymap2 [] = {
    @param keyAction the action will shall be performed
    @return none
 */
+
+#define MAX_KEYACTION_LEN 40
+
 void performKeyActions(char* text,  uint8_t keyAction)
 {
-  char * tmptxt = (char *) malloc( sizeof(char) * ( strlen(text) + 2 ) ); // for parsing keystrings
+  char tmptxt[MAX_KEYACTION_LEN+3];
   char * acttoken;
 
-  strcpy(tmptxt, text);
+  if (strlen(text) >= MAX_KEYACTION_LEN) { Serial.println ("ERROR: KEYACTION too long!"); return;}
+
+  strcpy(tmptxt,text);
   if (tmptxt[strlen(tmptxt) - 1] != ' ') strcat(tmptxt, " ");
 
   acttoken = strtok(tmptxt, " ");
@@ -334,5 +339,4 @@ void performKeyActions(char* text,  uint8_t keyAction)
     }
     acttoken = strtok(NULL, " ");
   }
-  free(tmptxt);
 }
