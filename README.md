@@ -54,8 +54,35 @@ In order to build the firmware following prerequisites and dependencies must be 
 ![FLipPad with 3d-printed enclosure - rendered image](/img/renderings/fp1.png)
 
 
-# Links to related projects
 
-Most of the work for the FLipPad has been accomplished at the UAS Technikum Wien, in course of research projects and together with students, see: 
-([AsTeRICS Foundation homepage](https://www.asterics-foundation.org)).
+# Links and Credits
+
+Most of the work for the FLipPad has been accomplished at the UAS Technikum Wien in course of the R&D-project *WBT* (MA23 project 26-02), which has been supported by the [City of Vienna](https://www.wien.gv.at/kontakte/ma23/index.html),
+see: [Webpage WBT project](https://wbt.wien).
+
+
+Have a look at the [AsTeRICS Foundation homepage](https://www.asterics-foundation.org) and our other Open Source AT projects:
+
+* AsTeRICS: [AsTeRICS framework homepage](http://www.asterics.eu), [AsTeRICS framework GitHub](https://github.com/asterics/AsTeRICS): The AsTeRICS framework provides a much higher flexibility for building assistive solutions. 
+The FLipMouse is also AsTeRICS compatible, so it is possible to use the raw input data for a different assistive solution.
+
+* FLipMouse: [The FLipMouse controller](https://github.com/asterics/FLipMouse): an open source alternative input device for controlling computers and mobile devices with minimal muscle movement.
+
+* FABI: [FABI: Flexible Assistive Button Interface GitHub](https://github.com/asterics/FABI): The Flexible Assistive Button Interface (FABI) provides basically the same control methods (mouse, clicking, keyboard,...), but the input
+is limited to simple buttons.
+
+* AsTeRICS Grid: [Asterics Grid AAC Web-App](https://grid.asterics.eu): an open source, cross plattform communicator / talker for Augmented and Alternative Communication (AAC).
+
+
+
+# Support us
+Please support the development of FLipPad by donating to the AsTeRICS Foundation:
+
+<div>
+<a title="Donate with PayPal" href="https://www.paypal.com/donate/?hosted_button_id=38AJJNS427MJ2" target="_blank" style="margin-right:3em">
+<img src="https://github.com/asterics/AsTeRICS-Grid/raw/master/app/img/donate-paypal.png" width=300/></a>
+<span>&nbsp;&nbsp;&nbsp;</span>
+<a title="Donate at opencollective.com" href="https://opencollective.com/asterics-foundation" target="_blank">
+<img src="https://github.com/asterics/AsTeRICS-Grid/raw/master/app/img/donate-open-collective.png" width=300/></a>
+</div>
 
