@@ -19,6 +19,8 @@
 #include "gpio.h"
 #include "tone.h"
 #include "utils.h"
+#include "cirque.h"
+
 
 /**
    static variables for mode handling
@@ -210,12 +212,12 @@ void handleUserInteraction()
 }
 
 /**
-   @name getAccelFactor
-   @brief calculates acceleration for mouse pointer movements 
+   @name getStickAccelFactor
+   @brief calculates acceleration for mouse pointer movements in stick mode
           according to sensordata and acceleration settings 
    @return float value of current acceleration factor
 */
-float getAccelFactor() {
+float getStickAccelFactor() {
   static float accelFactor=0;
   static int xo = 0, yo = 0;
   static float accelMaxForce = 0, lastAngle = 0;
@@ -244,26 +246,58 @@ float getAccelFactor() {
   return(accelFactor);
 }
 
+
+/**
+   @name getPadAccelFactor
+   @brief calculates acceleration for mouse pointer movements in pad mode
+          according to sensordata and acceleration settings 
+   @return float value of current acceleration factor
+*/
+float getPadAccelFactor() {
+  static float accelFactor=0;
+  static float distance=0;
+
+  if ((sensorData.padState==CIRQUE_STATE_LIFTOFF) || (sensorData.padState==CIRQUE_STATE_HOVERING)) {
+    accelFactor = 0;
+    distance=0;
+  }
+  else {
+    distance += (fabsf(sensorData.x) + fabsf(sensorData.y)) / 700000;
+    accelFactor = 0.0005+distance;
+    if (accelFactor>0.01) accelFactor=0.01;
+  }
+  return(accelFactor);
+}
+
 /**
    @name acceleratedMouseMove
    @brief performs accelerated mouse pointer movement
    @param accelFactor current acceleration factor
    @return none
 */
-void acceleratedMouseMove(float accelFactor) {
+void acceleratedMouseMove(float accelFactor, uint8_t use_maxSpeed) {
   static float accumXpos = 0;
   static float accumYpos = 0;
 
   float moveValX = sensorData.x * (float)slotSettings.ax * accelFactor;
   float moveValY = sensorData.y * (float)slotSettings.ay * accelFactor;
-  
-  float actSpeed =  __ieee754_sqrtf (moveValX * moveValX + moveValY * moveValY);
-  float max_speed = (float)slotSettings.ms / 10.0f;
 
-  if (actSpeed > max_speed) {
-    moveValX *= (max_speed / actSpeed);
-    moveValY *= (max_speed / actSpeed);
+  if (use_maxSpeed) { 
+    float actSpeed =  __ieee754_sqrtf (moveValX * moveValX + moveValY * moveValY);
+    float max_speed = (float)slotSettings.ms / 10.0f;
+    if (actSpeed > max_speed) {
+      moveValX *= (max_speed / actSpeed);
+      moveValY *= (max_speed / actSpeed);
+    }
   }
+
+/*
+  if ((sensorData.x!=0) && (sensorData.y!=0)) {
+    Serial.print ("x=");Serial.print (sensorData.x);  Serial.print ("  y=");Serial.print (sensorData.y);
+    Serial.print (" / moveValX=");Serial.print (moveValX);  Serial.print ("  moveValY=");Serial.print (moveValY);
+    Serial.println(" ");
+  }
+*/
 
   accumXpos += moveValX;
   accumYpos += moveValY;
@@ -310,11 +344,11 @@ void handleMovement()
   switch (slotSettings.padMode) {  
 
     case PADMODE_MOUSE:   // handle mouse stick mode
-      acceleratedMouseMove(getAccelFactor());
+      acceleratedMouseMove(getStickAccelFactor(), 1);
       break; 
      
     case PADMODE_PAD:   // handle mouse pad mode 
-      acceleratedMouseMove(0.01);
+      acceleratedMouseMove(getPadAccelFactor(), 0);
       break;
 
     case PADMODE_ALTERNATIVE:  // handle alternative actions (non-sticky)

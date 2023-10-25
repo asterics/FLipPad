@@ -75,7 +75,7 @@ const struct SlotSettings defaultSlotSettings = {      // default slotSettings v
    static variables and data structures for settings and sensor data management
 */
 struct SensorData sensorData {        
-  .x=0, .y=0, .xRaw=0, .yRaw=0, .pressure=0, 
+  .x=0, .y=0, .xRaw=0, .yRaw=0, .padState=0, .pressure=0, 
   .deadZone=0, .force=0, .forceRaw=0, .angle=0,
   .dir=0,
   .autoMoveX=0, .autoMoveY=0,
@@ -185,6 +185,7 @@ void loop() {
     // get coordinates and handle tap gestures
     sensorData.xRaw=sensorData.x=padX;
     sensorData.yRaw=sensorData.y=padY;
+    sensorData.padState=padState;
     handleTapClicks(padState, slotSettings.gv*10);  // perform clicks and drag actions when in pad mode
 
     // calculate angular direction and force
