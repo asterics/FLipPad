@@ -460,6 +460,10 @@ The FLipPad device includes an infrared remote control receiver module and a hig
 
 To record a new IR code, go to the tab ACTIONS. Click the desired action and select the action category “**Infrared**” in the popup-window. There, three different types of IR-actions can be selected from the combo box:
 
+<p align="left" width="100%">
+    <img width="60%" src="./Bilder/fp-in.jpg">
+</p>
+*Figure 29: Infrared Code Recording*
 * *Play infrared command*: sends the recorded code once
 * *Hold infrared command*: repeats the code until the user activity ends
 * *Stop infrared command*: stops a currently plaing IR-code
@@ -469,7 +473,7 @@ The existing commands can be chosen from the drop-down menu.
 In this window you can also manage IR commands. Next to *New IR Command*, you can enter a name and then click RECORD - point your IR remote to the side of the FLipPad where the LEDs stick out and send the IR command (there is a 10 seconds time limit for the recording phase). The new command is now stored in the FLipPad and can be chosen and replayed by selecting it's name in the drop down menu. If the command is not correctly replayed, try to increase the IR-Code timeout – for example to 250 milliseconds. Using *Delete IR command* commands can be deleted. 
 
 <p align="left" width="100%">
-    <img width="70%" src="./Bilder/fpk14-en.png">
+    <img width="60%" src="./Bilder/fpk14-en.png">
 </p>
 
 *Figure 30: Infrared Recording and Replay Configuration Manager*
@@ -484,8 +488,8 @@ The optional Bluetooth Add-on module allows connection and control of cell phone
 
 The Bluetooth module is plugged onto the internal 10-pin connector of the FLipPad. To do this, open the FLipPad housing and push the module onto the pin header as far as possible:
 
-<p align="left" width="100%">
-    <img width="40%" src="./Bilder/fig31.jpg">
+<p align="left" width="50%">
+    <img width="40%" src="./Bilder/fp-bl.jpg">
 </p>
 
 *Figure 31: Bluetooth module*
