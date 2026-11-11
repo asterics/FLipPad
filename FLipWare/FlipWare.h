@@ -33,8 +33,9 @@
 #include "bluetooth.h"
 #include "hid_hal.h"
 
-#define VERSION_STRING "v1.4"
+#define VERSION_STRING "v1.5"
 
+//  V1.5: changed acceleration reset strategy in pad mode
 //  V1.4: improved mouse acceleration in pad mode
 //  V1.3: fixed memory allocation problem (removed malloc, reduced static memory allocation)
 

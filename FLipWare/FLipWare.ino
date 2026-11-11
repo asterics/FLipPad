@@ -64,7 +64,7 @@ const struct SlotSettings defaultSlotSettings = {      // default slotSettings v
   40, 40, 20, 20, 50, 20,           // accx, accy, deadzone x, deadzone y, maxspeed, acceleration time
   400, 600, 3,                      // threshold sip, threshold puff, wheel step,
   800, 10,                          // threshold strong puff, threshold strong sip
-  40, 20, 40, 20 ,                  // gain and range drift compenstation( vertical, horizontal)
+  10, 20, 0, 20,                  // gain and range drift compenstation( vertical, horizontal)
   0, 0,                             // offset x / y
   0,                                // orientation
   1,                                // bt-mode 1: USB, 2: Bluetooth, 3: both (2 & 3 need daughter board))

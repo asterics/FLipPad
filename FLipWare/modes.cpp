@@ -255,15 +255,17 @@ float getStickAccelFactor() {
 */
 float getPadAccelFactor() {
   static float accelFactor=0;
-  static float distance=0;
+  static float distance=0,distfactor=1.0;
 
-  if ((sensorData.padState==CIRQUE_STATE_LIFTOFF) || (sensorData.padState==CIRQUE_STATE_HOVERING)) {
+  if ((sensorData.padState==CIRQUE_STATE_LIFTOFF) || (sensorData.padState==CIRQUE_STATE_HOVERING)
+      || ((sensorData.x==0) && (sensorData.y==0))) {
     accelFactor = 0;
-    distance=0;
+    distance=0;distfactor=1.0;
   }
   else {
-    distance += (fabsf(sensorData.x) + fabsf(sensorData.y)) / 700000;
-    accelFactor = 0.0005+distance;
+    distance   += (fabsf(sensorData.x) + fabsf(sensorData.y)) / 450000;
+    distfactor += ((float)slotSettings.ac / 400.0f);  
+    accelFactor = 0.00025+distance*distfactor;
     if (accelFactor>0.01) accelFactor=0.01;
   }
   return(accelFactor);
